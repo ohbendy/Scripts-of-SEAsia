@@ -82,6 +82,8 @@ Here follows a list of known scripts used in Southeast Asia. We include the Lik 
 | Western Cham              |                    |                                                | Cambodia                               |                  |                                                                                                                          |
 | Yuttasara                 |                    | Northern Thai                                  |                                        |                  |                                                                                                                          |
 
+---
+
 We may alternatively see the Lik scripts as a related set of variants of the same alphabet:
 
 | Script                    | Orthography            | Languages                                      | Location                                 | Unicode status   | Links                                                                                                                    |
