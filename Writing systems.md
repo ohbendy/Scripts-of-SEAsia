@@ -1,4 +1,4 @@
-Here follows a list of known indigenous scripts of Southeast Asia. We include the Lik scripts used by Tai groups outside Southeast Asia for completeness. Where different groups use the same script but different letters, orthographies are listed on separate rows.
+Here follows a list of known scripts used in Southeast Asia. We include the Lik scripts used by Tai groups outside Southeast Asia for completeness. Where different groups use the same script but different letters, orthographies are listed on separate rows.
 
 | Script                    | Orthography        | Languages                              | Location                               | Unicode status   | Links                                                                                                                    |
 |:--------------------------|:-------------------|:---------------------------------------|:---------------------------------------|:-----------------|:-------------------------------------------------------------------------------------------------------------------------|
