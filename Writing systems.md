@@ -1,3 +1,5 @@
+# Writing systems of Southeast Asia #
+
 Here follows a list of known writing systems used in Southeast Asia. We include the Lik scripts used by Tai groups outside Southeast Asia for completeness. Where different groups use the same script but different letters, orthographies are listed on separate rows. Latin-based orthographies are excluded for the time being.
 
 | Script                    | Orthography         | Languages                                                                       | Location                                                              | Unicode status                                                     | Links                                                                                                                    |
