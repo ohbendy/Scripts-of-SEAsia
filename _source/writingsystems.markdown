@@ -1,5 +1,3 @@
-# Writing systems of Southeast Asia #
-
 Here follows a list of known writing systems used in Southeast Asia. Where different groups use the same script in different ways, we use the deliberately broad term "orthography". This indicates a) that the written language requires extra letters (or omits some of the usual letters); and/or b) that the language is written using sequences of characters that don't occur in other languages; and/or c) that some letters have different structures or represent different sounds; and/or d) that the letters are generally expected to be written a different style (e.g some of the minority languages of Burma prefer the letters to have dotted terminals).
 
 We include the Lik scripts used by Tai groups outside Southeast Asia for completeness. Latin-based orthographies are excluded for the time being.
