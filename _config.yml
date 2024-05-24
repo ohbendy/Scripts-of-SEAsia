@@ -21,8 +21,8 @@
 title: Scripts of Southeat Asia
 description: >- # this means to ignore newlines until "baseurl:"
   A list of known writing systems used in Southeast Asia.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Scripts-of-SEAsia" # the subpath of your site, e.g. /blog
+url: "https://ohbendy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ohbendy
 github_username:  ohbendy
 
