@@ -25,6 +25,10 @@ a {
     width: 70vw;
     }
 
+p {
+    max-width: 65ch;
+    }
+
 table {
     display: block;
     max-width: fit-content;
