@@ -21,9 +21,16 @@ a {
 	color: #E4E4E4;
     }
 
-.wrapper {
-    background: pink;
-    }
+	#wrapper {
+        background: #F8F8F8;
+		padding: 0;
+		margin: 0rem auto;
+		max-width: 70%;
+        box-shadow: 6px 6px 25px rgba(200, 195, 180, 0.2);
+		margin: 1rem auto;
+		padding: 2.5rem 0 5rem;
+		border-radius: 11px;
+		}
 
 p {
     max-width: 75ch;
@@ -33,5 +40,5 @@ table {
     display: block;
     width: 100%;
     overflow-x: auto;
-    margin: auto;
+    margin: 0 auto;
     }
