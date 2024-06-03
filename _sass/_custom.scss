@@ -7,7 +7,7 @@ body {
   }
   a {
     font-weight:550;
-    color: #4291d7;
+    color:#4291d7;
     text-decoration:underline;
     text-decoration-color:#00CDF7;
     text-decoration-thickness:2px
@@ -29,18 +29,16 @@ body {
   h1 {
     font-weight:550;
     font-size:2rem
+    }
+  hr {
+    border:0;
+    height:0px;
+    width:100%;
+    margin:3rem auto 3.5rem;
+    border-top:1px solid #ccc;
+    border-bottom:2px solid #fff;
+    transition:all var(--speed)
   }
-  
-      hr {
-          border: 0;
-          height: 0px;
-          width: 100%;
-          margin: 3rem auto 3.5rem;
-          border-top: 1px solid #ccc;
-          border-bottom: 2px solid #fff;
-          transition: all var(--speed);
-          }
-  
   p {
     max-width:75ch;
     font-size:1rem;
@@ -57,9 +55,6 @@ body {
     box-shadow:6px 6px 25px rgba(200,195,180,0.2);
     color:#61473F
   }
-  
-  
-  
   table th {
     font-size:1.2rem;
     font-weight:600;
@@ -67,23 +62,28 @@ body {
     border-bottom:4px solid #7b5b51
   }
   table tr {
-    border-bottom:1px solid #a47f74;
-         
+    border-bottom:1px solid #a47f74
   }
-  
   table tr:last-child:not(:first-child) {
-    border-bottom: 2px solid transparent; 
-    }
-  
+    border-bottom:2px solid transparent
+  }
   table td {
     font-size:0.9rem;
     border-bottom:1px solid #c3aaa2
-    }
-  
+  }
   td:nth-child(6n+1) {
-    font-size: 1rem;
+    font-size:1rem;
     font-weight:700;
-    border-bottom: 1px solid transparent;
-    }
+    border-bottom:1px solid transparent
+  }
   
+  @media screen and (max-width: 3456px) {
+    .wrapper {max-width:85%; padding: 3rem 3.5rem;}
+    h1 {font-size: 1.6rem}
+    p {font-size:0.8rem; line-height: 1.2rem;}
+    table {margin:2rem auto 2.5rem; padding:1rem;overflow-x:auto;}
+    table th {font-size:0.75rem; padding: 0.75rem 0.2rem}
+    table td {font-size:0.6rem; padding: 0.2rem;}
+    td:nth-child(6n+1) {font-size:0.7rem;}
+    }
   
