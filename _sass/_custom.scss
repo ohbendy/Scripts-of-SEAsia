@@ -77,7 +77,7 @@ body {
     border-bottom:1px solid transparent
   }
   
-  @media screen and (max-width: 3456px) {
+  @media only screen and (max-width: 2500px) {
     .wrapper {max-width:85%; padding: 3rem 3.5rem;}
     h1 {font-size: 1.6rem}
     p {font-size:0.8rem; line-height: 1.2rem;}
