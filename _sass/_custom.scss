@@ -132,7 +132,7 @@ td:nth-child(6n + 1) {
     td:nth-child(6n+1) {font-size:1rem}
     }
   
-  @media screen and (max-width: 3840px) { /*Ben's External Display*/
+  @media screen and (min-width: 3840px) { /*Ben's External Display*/
     .page-content .wrapper {padding:7rem 8rem 7rem; max-width: 65%;}
     h1.post-title {font-size:2rem; letter-spacing:normal}
     hr {margin:3rem auto 3.5rem;}
