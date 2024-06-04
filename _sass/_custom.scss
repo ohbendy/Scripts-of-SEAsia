@@ -88,7 +88,7 @@ td:nth-child(6n + 1) {
   border-bottom: 1px solid transparent;
 }
 
-@media screen and (max-width: 393px) { /*iPhone 14 Pro */
+@media screen and (max-width: 600px) { /*iPhone 14 Pro et*/
     .page-content .wrapper {padding:1.5rem 1rem 1.5rem; max-width: 95%; margin:0 auto}
     h1.post-title {font-size:1.2rem; letter-spacing:normal}
     hr {margin:1.5rem auto 1rem;}
@@ -98,10 +98,32 @@ td:nth-child(6n + 1) {
     table td {font-size:0.75rem; padding: 0.25rem 0.25rem;}
     td:nth-child(6n+1) {font-size:0.8rem}
     }
+
+@media screen and (max-width: 1000px) { 
+    .page-content .wrapper {padding:2rem 2rem 1.5rem; max-width: 88%; margin:0 auto}
+    h1.post-title {font-size:1.35rem; letter-spacing:normal}
+    hr {margin:2rem auto 1.5rem;}
+    p {font-size:0.9rem; line-height:1.35rem; max-width:100%}
+    table {padding:0.5rem 1rem; margin:2rem auto 3rem;}
+    table th {font-size:1rem; padding: 0.25rem 0.25rem;}
+    table td {font-size:0.85rem; padding: 0.25rem 0.25rem;}
+    td:nth-child(6n+1) {font-size:0.92rem}
+    }
+
+@media screen and (max-width: 1728px) { 
+    .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 77%; margin: 4rem auto}
+    h1.post-title {font-size:1.6rem; letter-spacing:normal}
+    hr {margin:3rem auto 3.5rem;}
+    p {font-size:1rem; line-height:1.5rem; max-width:75ch}
+    table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
+    table th {font-size:1.1rem; padding: 0.5rem 0.25rem;}
+    table td {font-size:0.93rem; padding: 0.25rem 0.25rem;}
+    td:nth-child(6n+1) {font-size:1rem}
+    }
   
   @media screen and (min-width: 1728px) { /*Ben's Macbook*/
     .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 85%;}
-    h1.post-title {font-size:1.6rem}
+    h1.post-title {font-size:1.6rem; letter-spacing:normal}
     hr {margin:3rem auto 3.5rem;}
     p {font-size:1rem; line-height:1.5rem}
     table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
@@ -111,7 +133,7 @@ td:nth-child(6n + 1) {
     }
   
   @media screen and (device-width: 3840px) { /*Ben's External Display*/
-    .page-content .wrapper {padding:7rem 8rem 7rem}
+    .page-content .wrapper {padding:7rem 8rem 7rem; max-width: 65%;}
     h1.post-title {font-size:2rem}
     hr {margin:3rem auto 3.5rem;}
     p {font-size:1.4rem; line-height:2.1rem}
