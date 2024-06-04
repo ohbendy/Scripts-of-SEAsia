@@ -77,13 +77,10 @@ body {
     border-bottom:1px solid transparent
   }
   
-  @media only screen and (max-width: 2500px) {
-    .wrapper {max-width:85%; padding: 3rem 3.5rem;}
-    h1 {font-size: 1.6rem}
-    p {font-size:0.8rem; line-height: 1.2rem;}
-    table {margin:2rem auto 2.5rem; padding:1rem;overflow-x:auto;}
-    table th {font-size:0.75rem; padding: 0.75rem 0.2rem}
-    table td {font-size:0.6rem; padding: 0.2rem;}
-    td:nth-child(6n+1) {font-size:0.7rem;}
-    }
-  
+  @media screen and (min-width: 1728px) and (min-resolution:192dpi) { /* Ben's MacBook Retina screen */
+    /* in progress */
+  }
+
+  @media screen and (device-width: 3840px) { /* Ben's external display */
+    .wrapper {padding:7rem 8rem 7rem;} h1 { font-size:2rem } p { font-size:1.4rem; line-height:2.1rem} table th {font-size:1.5rem;} table td {font-size:1.125rem;} td:nth-child(6n+1) {font-size:1.25rem;}
+  }
