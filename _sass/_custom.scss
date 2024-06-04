@@ -86,33 +86,44 @@ td:nth-child(6n + 1) {
   border-bottom: 1px solid transparent;
 }
 
-@media screen and (min-width: 1728px) and (min-resolution: 192dpi) {
-  /* Ben's MacBook Retina screen */
-  /* in progress */
-}
+@media screen and (max-width: 393px) { /*iPhone 14 Pro */
+    .page-content .wrapper {padding:1.5rem 1rem 1.5rem; max-width: 95%; margin:0 auto}
+    h1.post-title {font-size:1.2rem; letter-spacing:normal}
+    hr {margin:1.5rem auto 1rem;}
+    p {font-size:0.7rem; line-height:1rem; max-width:100%}
+    table {padding:0.25rem 0.5rem; margin:1.5rem auto 1rem;}
+    table th {font-size:0.8rem; padding: 0.25rem 0.25rem;}
+    table td {font-size:0.7rem; padding: 0.25rem 0.25rem;}
+    td:nth-child(6n+1) {font-size:0.75rem}
+    }
+  
+  @media screen and (min-width: 1728px) { /*Ben's Macbook*/
+    .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 85%;}
+    h1.post-title {font-size:1.6rem}
+    hr {margin:3rem auto 3.5rem;}
+    p {font-size:1rem; line-height:1.5rem}
+    table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
+    table th {font-size:1.2rem; padding: 0.5rem 0.25rem;}
+    table td {font-size:0.9rem; padding: 0.5rem 0.25rem;}
+    td:nth-child(6n+1) {font-size:1rem}
+    }
+  
+  @media screen and (device-width: 3840px) { /*Ben's External Display*/
+    .page-content .wrapper {padding:7rem 8rem 7rem}
+    h1.post-title {font-size:2rem}
+    hr {margin:3rem auto 3.5rem;}
+    p {font-size:1.4rem; line-height:2.1rem}
+    table {padding:1rem 2rem; margin:3rem auto 4rem;}
+    table th {font-size:1.5rem}
+    table td {font-size:1.125rem}
+    td:nth-child(6n+1) {font-size:1.25rem}
+    }
 
-@media screen and (device-width: 3840px) {
-  /* Ben's external display */
-  .page-content .wrapper {
-    padding: 7rem 8rem 7rem;
+  @media screen and (max-width: 600px) {
+    .site-nav a.page-link {
+      color:#424242
+    }
   }
-  h1.post-title {
-    font-size: 2rem;
-  }
-  p {
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-  }
-  table th {
-    font-size: 1.5rem;
-  }
-  table td {
-    font-size: 1.125rem;
-  }
-  td:nth-child(6n + 1) {
-    font-size: 1.25rem;
-  }
-}
 
 .site-nav {
   @include media-query($on-palm) {
