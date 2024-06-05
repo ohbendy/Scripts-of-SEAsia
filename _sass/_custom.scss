@@ -2,9 +2,11 @@ body {
   background: #f3f1f1;
   color: #4d3932;
 }
+
 ::selection {
   background-color: #c5a8ff;
 }
+
 a {
   font-weight: 550;
   color: #4291d7;
@@ -12,10 +14,12 @@ a {
   text-decoration-color: #00cdf7;
   text-decoration-thickness: 2px;
 }
+
 a:visited {
-    color: #8661d1;
-    text-decoration-color:#df80ff;
+  color: #8661d1;
+  text-decoration-color: #df80ff;
 }
+
 .site-header {
   background: linear-gradient(#444, #111);
   box-shadow: 0px 3px 2px rgba(10, 8, 0, 0.2);
@@ -24,10 +28,8 @@ a:visited {
 
 }
 
-.site-nav {
-  .page-link {
-    color: #e4e4e4;
-  }
+.site-nav a.page-link {
+  color: #424242;
 }
 
 .page-content .wrapper {
@@ -42,6 +44,7 @@ h1.post-title {
   font-weight: 550;
   font-size: 2rem;
 }
+
 hr {
   border: 0;
   height: 0px;
@@ -51,11 +54,13 @@ hr {
   border-bottom: 2px solid #fff;
   transition: all var(--speed);
 }
+
 p {
   max-width: 75ch;
   font-size: 1rem;
   line-height: 1.5rem;
 }
+
 table {
   display: block;
   width: 100%;
@@ -66,103 +71,317 @@ table {
   border: 3px solid #ebe3e0;
   box-shadow: 6px 6px 25px rgba(200, 195, 180, 0.2);
   color: #61473f;
-}
-table th {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #a47f74;
-  border-bottom: 4px solid #7b5b51;
-}
-table tr {
-  border-bottom: 1px solid #a47f74;
-}
-table tr:last-child:not(:first-child) {
-  border-bottom: 2px solid transparent;
-}
-table td {
-  font-size: 0.9rem;
-  border-bottom: 1px solid #c3aaa2;
-}
-td:nth-child(6n + 1) {
-  font-size: 1rem;
-  font-weight: 700;
-  border-bottom: 1px solid transparent;
+
+  th {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #a47f74;
+    border-bottom: 4px solid #7b5b51;
+  }
+
+  tr {
+    border-bottom: 1px solid #a47f74;
+  }
+
+  tr:last-child:not(:first-child) {
+    border-bottom: 2px solid transparent;
+  }
+
+  td {
+    font-size: 0.9rem;
+    border-bottom: 1px solid #c3aaa2;
+  }
+
+  td:nth-child(6n + 1) {
+    font-size: 1rem;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+  }
 }
 
 /* Default sizes for mobile devices, no media query */
-    .page-content .wrapper {padding:1rem 1rem 1rem; max-width: 95%; margin:0 auto}
-    h1.post-title {font-size:1.2rem; letter-spacing:normal}
-    hr {margin:1.5rem auto 1rem;}
-    p {font-size:0.75rem; line-height:1.05rem; max-width:100%}
-    table {padding:0.25rem 0.5rem; margin:2rem auto 2rem;}
-    table th {font-size:0.85rem; padding: 0.25rem 0.25rem;}
-    table td {font-size:0.75rem; padding: 0.25rem 0.25rem;}
-    td:nth-child(6n+1) {font-size:0.8rem}
-
-@media screen and (max-width: 600px) {
-    .site-nav a.page-link {
-        color:#424242
-    }
-    }
-
-.site-nav {
-    @include media-query($on-palm) {
-    a.page-link {
-        color: $grey-color-dark;
-    }
-    }
+.page-content .wrapper {
+  padding: 1rem 1rem 1rem;
+  max-width: 95%;
+  margin: 0 auto
 }
+
+h1.post-title {
+  font-size: 1.2rem;
+  letter-spacing: normal
+}
+
+hr {
+  margin: 1.5rem auto 1rem;
+}
+
+p {
+  font-size: 0.75rem;
+  line-height: 1.05rem;
+  max-width: 100%
+}
+
+table {
+  padding: 0.25rem 0.5rem;
+  margin: 2rem auto 2rem;
+
+  th {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.25rem;
+  }
   
-@media screen and (min-width: 600px) { 
-    .page-content .wrapper {padding:2rem 2rem 1.5rem; max-width: 88%; margin:0 auto}
-    h1.post-title {font-size:1.35rem; letter-spacing: normal}
-    hr {margin:2rem auto 1.5rem;}
-    p {font-size:0.9rem; line-height:1.35rem; max-width:100%}
-    table {padding:0.5rem 1rem; margin:2rem auto 3rem;}
-    table th {font-size:1rem; padding: 0.25rem 0.25rem;}
-    table td {font-size:0.85rem; padding: 0.25rem 0.25rem;}
-    td:nth-child(6n+1) {font-size:0.92rem}
-    }
-      
-@media screen and (min-width: 1001px) { 
-    .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 77%; margin: 4rem auto}
-    h1.post-title {font-size:1.6rem; letter-spacing: normal}
-    hr {margin:3rem auto 3.5rem;}
-    p {font-size:1rem; line-height:1.5rem; max-width:75ch}
-    table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
-    table th {font-size:1.1rem; padding: 0.5rem 0.25rem;}
-    table td {font-size:0.93rem; padding: 0.25rem 0.25rem;}
-    td:nth-child(6n+1) {font-size:1rem}
+  td {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.25rem;
+  }
+
+  td:nth-child(6n+1) {
+    font-size: 0.8rem
+  }
+}
+
+.site-header .wrapper {
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+}
+
+// @media screen and (min-width: 600px) { 
+//     .page-content .wrapper {padding:2rem 2rem 1.5rem; max-width: 88%; margin:0 auto}
+//     h1.post-title {font-size:1.35rem; letter-spacing: normal}
+//     hr {margin:2rem auto 1.5rem;}
+//     p {font-size:0.9rem; line-height:1.35rem; max-width:100%}
+//     table {padding:0.5rem 1rem; margin:2rem auto 3rem;}
+//     table th {font-size:1rem; padding: 0.25rem 0.25rem;}
+//     table td {font-size:0.85rem; padding: 0.25rem 0.25rem;}
+//     td:nth-child(6n+1) {font-size:0.92rem}
+//     }
+
+// @media screen and (min-width: 1001px) { 
+//     .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 77%; margin: 4rem auto}
+//     h1.post-title {font-size:1.6rem; letter-spacing: normal}
+//     hr {margin:3rem auto 3.5rem;}
+//     p {font-size:1rem; line-height:1.5rem; max-width:75ch}
+//     table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
+//     table th {font-size:1.1rem; padding: 0.5rem 0.25rem;}
+//     table td {font-size:0.93rem; padding: 0.25rem 0.25rem;}
+//     td:nth-child(6n+1) {font-size:1rem}
+//     }
+
+// @media screen and (min-width: 1729px) { 
+//     .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 70%;}
+//     h1.post-title {font-size:2.2rem; letter-spacing: normal}
+//     hr {margin:3rem auto 3.5rem;}
+//     p {font-size:1rem; line-height:1.5rem;  max-width:75ch}
+//     table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
+//     table th {font-size:1.2rem; padding: 0.5rem 0.25rem;}
+//     table td {font-size:0.9rem; padding: 0.5rem 0.25rem;}
+//     td:nth-child(6n+1) {font-size:1rem}
+//     }
+
+// @media screen and (min-width: 3000px) { /*Ben's External Display*/
+//     .page-content .wrapper {padding:7rem 8rem 7rem; max-width: 65%;}
+//     h1.post-title {font-size:2.4rem; letter-spacing: normal}
+//     hr {margin:3rem auto 3.5rem;}
+//     p {font-size:1.4rem; line-height:2.1rem;  max-width:75ch}
+//     table {padding:1rem 2rem; margin:3rem auto 4rem;}
+//     table th {font-size:1.5rem}
+//     table td {font-size:1.125rem}
+//     td:nth-child(6n+1) {font-size:1.25rem}
+//     }
+
+/* Small devices (640px and up) */
+@media (min-width: 640px) {
+  .site-header .wrapper {
+    max-width: 88%;
+  }
+
+  .page-content .wrapper {
+    padding: 2rem 2rem 1.5rem;
+    max-width: 88%;
+    margin: 0 auto
+  }
+
+  h1.post-title {
+    font-size: 1.35rem;
+    letter-spacing: normal
+  }
+
+  hr {
+    margin: 2rem auto 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+    max-width: 100%
+  }
+
+  table {
+    padding: 0.5rem 1rem;
+    margin: 2rem auto 3rem;
+
+    th {
+      font-size: 1rem;
+      padding: 0.25rem 0.25rem;
     }
 
-@media screen and (min-width: 1729px) { 
-    .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 70%;}
-    h1.post-title {font-size:2.2rem; letter-spacing: normal}
-    hr {margin:3rem auto 3.5rem;}
-    p {font-size:1rem; line-height:1.5rem;  max-width:75ch}
-    table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
-    table th {font-size:1.2rem; padding: 0.5rem 0.25rem;}
-    table td {font-size:0.9rem; padding: 0.5rem 0.25rem;}
-    td:nth-child(6n+1) {font-size:1rem}
+    td {
+      font-size: 0.85rem;
+      padding: 0.25rem 0.25rem;
     }
 
-@media screen and (min-width: 3000px) { /*Ben's External Display*/
-    .page-content .wrapper {padding:7rem 8rem 7rem; max-width: 65%;}
-    h1.post-title {font-size:2.4rem; letter-spacing: normal}
-    hr {margin:3rem auto 3.5rem;}
-    p {font-size:1.4rem; line-height:2.1rem;  max-width:75ch}
-    table {padding:1rem 2rem; margin:3rem auto 4rem;}
-    table th {font-size:1.5rem}
-    table td {font-size:1.125rem}
-    td:nth-child(6n+1) {font-size:1.25rem}
+    td:nth-child(6n+1) {
+      font-size: 0.92rem
+    }
+  }
+
+  .site-nav a.page-link {
+    color: #e4e4e4;
+  }
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (1024px and up) */
+@media (min-width: 1024px) {
+  .site-header .wrapper {
+    max-width: 77%;
+  }
+
+  .page-content .wrapper {
+    padding: 3rem 4rem 3rem;
+    max-width: 77%;
+    margin: 4rem auto
+  }
+
+  h1.post-title {
+    font-size: 1.6rem;
+    letter-spacing: normal
+  }
+
+  hr {
+    margin: 3rem auto 3.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 75ch
+  }
+
+  table {
+    padding: 0.5rem 1rem;
+    margin: 3rem auto 4rem;
+
+    th {
+      font-size: 1.1rem;
+      padding: 0.5rem 0.25rem;
     }
 
-// .page-content .wrapper {
-//   @include media-query($on-laptop) {
-//       padding: 6rem 6rem 6rem;
-//   }
+    td {
+      font-size: 0.93rem;
+      padding: 0.25rem 0.25rem;
+    }
 
-//   @include media-query($on-palm) {
-//     padding: 2rem;
-// }
-// }
+    td:nth-child(6n+1) {
+      font-size: 1rem
+    }
+  }
+}
+
+/* Extra large devices (1280px and up) */
+@media (min-width: 1280px) {}
+
+/* 2XL devices (1536px and up) */
+@media (min-width: 1536px) {}
+
+/* 3XL devices (1920px and up) */
+@media (min-width: 1920px) {
+  .site-header .wrapper {
+    max-width: 70%;
+  }
+
+  .page-content .wrapper {
+    padding: 3rem 4rem 3rem;
+    max-width: 70%;
+  }
+
+  h1.post-title {
+    font-size: 2.2rem;
+    letter-spacing: normal
+  }
+
+  hr {
+    margin: 3rem auto 3.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 75ch
+  }
+
+  table {
+    padding: 0.5rem 1rem;
+    margin: 3rem auto 4rem;
+
+    th {
+      font-size: 1.2rem;
+      padding: 0.5rem 0.25rem;
+    }
+
+    td {
+      font-size: 0.9rem;
+      padding: 0.5rem 0.25rem;
+    }
+
+    td:nth-child(6n+1) {
+      font-size: 1rem
+    }
+  }
+}
+
+/* For external minitors, larger than 2560px. */
+@media (min-width: 2560px) {
+  .site-header .wrapper {
+    max-width: 65%;
+  }
+
+  .page-content .wrapper {
+    padding: 7rem 8rem 7rem;
+    max-width: 65%;
+  }
+
+  h1.post-title {
+    font-size: 2.4rem;
+    letter-spacing: normal
+  }
+
+  hr {
+    margin: 3rem auto 3.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    max-width: 75ch
+  }
+
+  table {
+    padding: 1rem 2rem;
+    margin: 3rem auto 4rem;
+
+    th {
+      font-size: 1.5rem
+    }
+
+    td {
+      font-size: 1.125rem
+    }
+
+    td:nth-child(6n+1) {
+      font-size: 1.25rem
+    }
+  }
+}
