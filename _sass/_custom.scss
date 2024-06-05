@@ -93,7 +93,7 @@ td:nth-child(6n + 1) {
 }
 
 /* Default sizes for mobile devices, no media query */
-    .page-content .wrapper {padding:1.5rem 1rem 1.5rem; max-width: 95%; margin:0 auto}
+    .page-content .wrapper {padding:1rem 0.75rem 1rem; max-width: 95%; margin:0 auto}
     h1.post-title {font-size:1.2rem; letter-spacing:normal}
     hr {margin:1.5rem auto 1rem;}
     p {font-size:0.75rem; line-height:1.05rem; max-width:100%}
@@ -118,7 +118,7 @@ td:nth-child(6n + 1) {
   
   @media screen and (min-width: 3000px) { /*Ben's External Display*/
     .page-content .wrapper {padding:7rem 8rem 7rem; max-width: 65%;}
-    h1.post-title {font-size:2.4rem; letter-spacing:normal}
+    h1.post-title {font-size:2.4rem; letter-spacing: normal}
     hr {margin:3rem auto 3.5rem;}
     p {font-size:1.4rem; line-height:2.1rem;  max-width:75ch}
     table {padding:1rem 2rem; margin:3rem auto 4rem;}
@@ -129,7 +129,7 @@ td:nth-child(6n + 1) {
       
   @media screen and (max-width: 3000px) { 
     .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 70%;}
-    h1.post-title {font-size:1.6rem; letter-spacing:normal}
+    h1.post-title {font-size:2.2rem; letter-spacing: normal}
     hr {margin:3rem auto 3.5rem;}
     p {font-size:1rem; line-height:1.5rem;  max-width:75ch}
     table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
@@ -140,7 +140,7 @@ td:nth-child(6n + 1) {
 
   @media screen and (max-width: 1728px) { 
         .page-content .wrapper {padding:3rem 4rem 3rem; max-width: 77%; margin: 4rem auto}
-        h1.post-title {font-size:1.6rem; letter-spacing:normal}
+        h1.post-title {font-size:1.6rem; letter-spacing: normal}
         hr {margin:3rem auto 3.5rem;}
         p {font-size:1rem; line-height:1.5rem; max-width:75ch}
         table {padding:0.5rem 1rem; margin:3rem auto 4rem;}
@@ -151,7 +151,7 @@ td:nth-child(6n + 1) {
 
   @media screen and (max-width: 1000px) { 
         .page-content .wrapper {padding:2rem 2rem 1.5rem; max-width: 88%; margin:0 auto}
-        h1.post-title {font-size:1.35rem; letter-spacing:normal}
+        h1.post-title {font-size:1.35rem; letter-spacing: normal}
         hr {margin:2rem auto 1.5rem;}
         p {font-size:0.9rem; line-height:1.35rem; max-width:100%}
         table {padding:0.5rem 1rem; margin:2rem auto 3rem;}
