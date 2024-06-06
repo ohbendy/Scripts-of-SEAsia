@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
 
-    <!-- {%- include footer.html -%} -->
+  <!-- {%- include footer.html -%} -->
 
-  </body>
+</body>
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="//cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
-  <script>
-    let table = new DataTable('#myTable table', {
-      paging: false
-    });
-  </script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="//cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
+<script src="//cdn.datatables.net/rowgroup/1.5.0/js/dataTables.rowGroup.min.js"></script>
+<script src="{{ "/assets/main.js" | relative_url }}"></script>
 
 </html>

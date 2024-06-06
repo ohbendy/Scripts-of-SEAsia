@@ -65,7 +65,6 @@ table {
   display: block;
   width: 100%;
   overflow-x: auto;
-  margin: 3rem auto 4rem;
   padding: 1rem 2rem;
   background: #fafafa;
   border: 3px solid #ebe3e0;
@@ -99,6 +98,36 @@ table {
   }
 }
 
+.dt-search {
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+  position: relative;
+  z-index: 10;
+
+  label {
+    padding-right: 1rem;
+    font-weight: 700;
+  }
+
+  input[type=search] {
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 5px 7px;
+  }
+}
+
+.dt-container {
+  .dataTable {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .dt-scroll-head,
+  .dt-scroll-foot {
+    display: none;
+  }
+}
+
 /* Default sizes for mobile devices, no media query */
 .page-content .wrapper {
   padding: 1rem 1rem 1rem;
@@ -129,7 +158,7 @@ table {
     font-size: 0.85rem;
     padding: 0.25rem 0.25rem;
   }
-  
+
   td {
     font-size: 0.75rem;
     padding: 0.25rem 0.25rem;
@@ -143,6 +172,14 @@ table {
 .site-header .wrapper {
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+}
+
+.script-name {
+  // visibility: hidden;
+
+  &.hide {
+    visibility: hidden;
+  }
 }
 
 // @media screen and (min-width: 600px) { 
@@ -218,7 +255,6 @@ table {
 
   table {
     padding: 0.5rem 1rem;
-    margin: 2rem auto 3rem;
 
     th {
       font-size: 1rem;
@@ -272,7 +308,6 @@ table {
 
   table {
     padding: 0.5rem 1rem;
-    margin: 3rem auto 4rem;
 
     th {
       font-size: 1.1rem;
@@ -324,7 +359,6 @@ table {
 
   table {
     padding: 0.5rem 1rem;
-    margin: 3rem auto 4rem;
 
     th {
       font-size: 1.2rem;
@@ -370,7 +404,6 @@ table {
 
   table {
     padding: 1rem 2rem;
-    margin: 3rem auto 4rem;
 
     th {
       font-size: 1.5rem
