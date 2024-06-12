@@ -4,6 +4,8 @@ We include the Lik scripts used by Tai groups outside Southeast Asia for complet
 
 Latin-based orthographies are excluded for the time being.
 
+This is a work in progress. Please submit issues to the GitHub source repository if you find errors or omissions.
+
 
 | Script                         | Orthography            | Languages                                                                       | Location                                            | Unicode status                                                               | Links                                                                                                                                                                                                  |
 | :----------------------------- | :--------------------- | :------------------------------------------------------------------------------ | :-------------------------------------------------- | :--------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
