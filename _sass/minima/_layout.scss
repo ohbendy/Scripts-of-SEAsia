@@ -50,7 +50,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background: linear-gradient(#444, #111);
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -70,11 +70,11 @@
       width: 36px;
       height: 26px;
       line-height: 0;
-      padding-top: 10px;
+      padding: 10px 0 0 0;
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: #3399ff;
       }
     }
 
