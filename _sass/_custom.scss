@@ -28,8 +28,19 @@ a:visited {
 
 }
 
-.site-nav a.page-link {
-  color: #424242;
+.site-nav  { 
+  a.page-link {
+   color: #99ccff;
+   font-weight: 700;
+   font-size: 1.25rem;
+   text-decoration: none;
+   padding: 1rem;
+ }
+
+ a.page-link:hover {
+   background: linear-gradient(0deg, #80bfff, #3399ff);
+   color: #000;
+ }
 }
 
 .page-content .wrapper {
@@ -385,6 +396,7 @@ table {
   .page-content .wrapper {
     padding: 7rem 8rem 7rem;
     max-width: 65%;
+    margin-top: 4rem;
   }
 
   h1.post-title {
