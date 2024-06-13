@@ -242,6 +242,12 @@ table {
     max-width: 88%;
   }
 
+  .site-nav  { 
+    a.page-link {
+    padding:1rem
+  }
+}
+
   .page-content .wrapper {
     padding: 2rem 2rem 1.5rem;
     max-width: 88%;
@@ -283,7 +289,7 @@ table {
 
   .site-nav a.page-link {
     color: #e4e4e4;
-    
+
   }
 }
 
