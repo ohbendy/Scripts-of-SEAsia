@@ -192,6 +192,13 @@ table {
   }
 }
 
+// Fix strange hidden table when using DataTable's scrollX
+#myTable #DataTables_Table_0_wrapper .dt-layout-table {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
 // @media screen and (min-width: 600px) { 
 //     .page-content .wrapper {padding:2rem 2rem 1.5rem; max-width: 88%; margin:0 auto}
 //     h1.post-title {font-size:1.35rem; letter-spacing: normal}

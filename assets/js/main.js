@@ -34,7 +34,6 @@ $("document").ready(function () {
     paging: false,
     ordering: false,
     autoWidth: true,
-    scrollX: true,
     info: false,
     columns: [ null, null, null, null, null, { searchable: false }]
   });
