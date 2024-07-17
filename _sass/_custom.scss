@@ -101,10 +101,16 @@ table {
     border-bottom: 1px solid #c3aaa2;
   }
 
-  td:nth-child(6n + 1) {
+  td:nth-child(7n + 1) {
     font-size: 1rem;
     font-weight: 700;
     border-bottom: 1px solid transparent;
+  }
+
+  img {
+    max-width: 100%; 
+    max-height: 8rem;
+    filter: sepia(50%) grayscale(50%);
   }
 }
 
