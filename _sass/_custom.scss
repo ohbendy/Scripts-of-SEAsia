@@ -108,9 +108,9 @@ table {
   }
 
   img {
-    max-width: 100%; 
+    max-width: 20rem; 
     max-height: 8rem;
-    filter: sepia(50%) grayscale(50%);
+    filter: grayscale(100%) sepia(40%) ;
   }
 }
 
