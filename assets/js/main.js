@@ -40,11 +40,23 @@ $("document").ready(function () {
 
   table.on("draw.dt", function (e, settings) {
     // $($("#myTable table#DataTables_Table_0")[0]).find(".script-name*[data-script]").each(function (index, cell) {
-    let t = $(settings.nTable);
+    var t = $(settings.nTable);
     t.find(".script-name*[data-script]").each(function (index, cell) {
       var rows = t.find(`.script-name*[data-script=${$(cell).data("script")}]`);
       rows.addClass("hide");
       $(rows[0]).removeClass("hide");
+    });
+  });
+
+  $("#myTable table:first").imagesLoaded(function() {
+    var images = $("#myTable table:first img");
+    images.each(function(i, img) {
+      var isVertical = img.width/img.height < 1;
+      if (isVertical) {
+        var wrapper = $("<figure class='is-vertical'></figure>").get(0);
+        wrapper.innerHTML = img.outerHTML;
+        img.parentNode.innerHTML = wrapper.outerHTML;
+      }
     });
   });
 });
