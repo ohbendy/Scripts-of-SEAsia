@@ -108,8 +108,8 @@ table {
   }
 
   img {
-    max-width: 20rem; 
-    max-height: 8rem;
+    max-width: 10rem; 
+    max-height: 5rem;
     filter: grayscale(100%) sepia(40%) ;
   }
 }
@@ -285,6 +285,10 @@ table {
 
   table {
     padding: 0.5rem 1rem;
+
+    img {
+      max-width: 12rem;
+    }
 
     th {
       font-size: 1rem;
@@ -463,8 +467,8 @@ table {
   margin-bottom: 0;
   position: relative;
   overflow: hidden;
-  max-width: 25%;
-  max-height: 8rem;
+  max-width: 5rem;
+  max-height: 5rem;
   
   img {
     // border: 3px solid rgba($color: #fff, $alpha: 0);
