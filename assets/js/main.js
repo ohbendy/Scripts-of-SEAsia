@@ -35,7 +35,7 @@ $("document").ready(function () {
     ordering: false,
     autoWidth: true,
     info: false,
-    columns: [ null, null, null, null, null, { searchable: false }]
+    columns: [ null, null, null, null, { searchable: false }, null, { searchable: false }]
   });
 
   table.on("draw.dt", function () {
