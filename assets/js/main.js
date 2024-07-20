@@ -38,10 +38,11 @@ $("document").ready(function () {
     columns: [ null, null, null, null, { searchable: false }, null, { searchable: false }]
   });
 
-  table.on("draw.dt", function () {
-    $($("#myTable .dt-scroll table")[1]).find(".script-name*[data-script]").each(function (index, cell) {
-      // var rows = $(`#myTable .dt-scroll table:nth-child(2) .script-name[data-script=${$(cell).data("script")}]`);
-      var rows = $($("#myTable .dt-scroll table")[1]).find(`.script-name*[data-script=${$(cell).data("script")}]`);
+  table.on("draw.dt", function (e, settings) {
+    // $($("#myTable table#DataTables_Table_0")[0]).find(".script-name*[data-script]").each(function (index, cell) {
+    let t = $(settings.nTable);
+    t.find(".script-name*[data-script]").each(function (index, cell) {
+      var rows = t.find(`.script-name*[data-script=${$(cell).data("script")}]`);
       rows.addClass("hide");
       $(rows[0]).removeClass("hide");
     });
