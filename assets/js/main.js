@@ -48,6 +48,11 @@ $("document").ready(function () {
     });
   });
 
+  // Open link in new tab
+  $("#myTable table a").each(function(index, a) {
+    a.target = "_blank";
+  });
+
   $("#myTable table:first").imagesLoaded(function() {
     var images = $("#myTable table:first img");
     images.each(function(i, img) {
