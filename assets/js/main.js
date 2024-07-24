@@ -35,7 +35,11 @@ $("document").ready(function () {
     ordering: false,
     autoWidth: true,
     info: false,
-    columns: [ null, null, null, null, { searchable: false }, null, { searchable: false }]
+    columns: [ null, null, null, null, { searchable: false }, null, { searchable: false }],
+    fixedHeader: {
+      header: true,
+      headerOffset: -35
+    }
   });
 
   table.on("draw.dt", function (e, settings) {
