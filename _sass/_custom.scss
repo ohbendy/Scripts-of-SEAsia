@@ -201,11 +201,11 @@ table {
 // Fix strange hidden table when using DataTable's scrollX
 #myTable #DataTables_Table_0 {
   width: 100% !important;
+  overflow: visible;
 }
 
 #myTable #DataTables_Table_0_wrapper .dt-layout-table {
   position: relative;
-  overflow: auto;
   width: 100%;
 }
 

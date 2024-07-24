@@ -39,7 +39,6 @@ $("document").ready(function () {
   });
 
   table.on("draw.dt", function (e, settings) {
-    // $($("#myTable table#DataTables_Table_0")[0]).find(".script-name*[data-script]").each(function (index, cell) {
     var t = $(settings.nTable);
     t.find(".script-name*[data-script]").each(function (index, cell) {
       var rows = t.find(`.script-name*[data-script=${$(cell).data("script")}]`);
@@ -62,6 +61,22 @@ $("document").ready(function () {
         wrapper.innerHTML = img.outerHTML;
         img.parentNode.innerHTML = wrapper.outerHTML;
       }
+    });
+
+    $("#myTable table .is-vertical").mouseenter(function() {
+      var imgWrapper = $(this).get(0);
+      var cr = imgWrapper.getBoundingClientRect();
+      var offset = cr.top + imgWrapper.scrollHeight - window.innerHeight;
+      var outViewport = offset > 1;
+
+      if (outViewport) {
+        var img = $(imgWrapper).find("img");
+        img.css("transform", `translateY(-${offset+25}px)`)
+      }
+    });
+
+    $("#myTable table .is-vertical").mouseleave(function() {
+      $(this).find("img").removeAttr("style")
     });
   });
 });
