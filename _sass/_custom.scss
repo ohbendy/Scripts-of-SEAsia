@@ -213,8 +213,13 @@ table {
   z-index: 90 !important;
 }
 
-.dataTable.fixedHeader-floating {
-  background-color: #ffffff;
+.dataTable.fixedHeader-floating { 
+  background-color: #fafafa; 
+  box-shadow: none; 
+}
+
+.dataTable.fixedHeader-floating th {
+  border: 1px solid transparent; 
 }
 
 /* Small devices (640px and up) */
