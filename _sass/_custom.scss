@@ -215,7 +215,8 @@ table {
 
 .dataTable.fixedHeader-floating { 
   background-color: #fafafa; 
-  box-shadow: none; 
+  box-shadow: none;
+  border-bottom:4px solid #7b5b51;
 }
 
 .dataTable.fixedHeader-floating th {
