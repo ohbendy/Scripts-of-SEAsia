@@ -314,6 +314,13 @@ table {
     line-height: 1.5rem;
     max-width: 75ch
   }
+  .post-content ul {
+    font-size:1.4rem; margin-left: 3rem;
+  }
+
+  li::marker {
+    color: #00e6ac;
+  }
 
   table {
     padding: 0.5rem 1rem;
