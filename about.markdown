@@ -6,5 +6,5 @@ permalink: /about/
 
 This table of SEAsian scripts is generated from the [source repository](https://github.com/ohbendy/Scripts-of-SEAsia) hosted on GitHub and maintained by Ben Mitchell. Please file bug reports to submit requests for other scripts to be included, or for me to correct errors.
 
-With thanks to Sovichet Tep for technical wizardry. Thanks also to 
+With thanks to Sovichet Tep for technical wizardry. Thanks also to: 
 <ul><li>Aditya Bayu (Indonesian scripts)</li><li>Chow Kensan Tunkhang (Lik scripts)</li><li>David Wharton (Lik and Tham scripts)</li><li>Jad Maza (Philippine scripts)</li><li>Ye Myat Lwin (Arakanese scripts).</li></ul>
