@@ -65,7 +65,7 @@ hr {
   transition: all var(--speed);
 }
 
-p {
+p, .post-content ul {
   max-width: 75ch;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -160,10 +160,14 @@ hr {
   margin: 1.5rem auto 1rem;
 }
 
-p {
+p, .post-content ul {
   font-size: 0.75rem;
   line-height: 1.05rem;
   max-width: 100%
+}
+
+li::marker {
+  color: #00e6ac;
 }
 
 table {
@@ -251,7 +255,7 @@ table {
     margin: 2rem auto 1.5rem;
   }
 
-  p {
+  p, .post-content ul {
     font-size: 0.9rem;
     line-height: 1.35rem;
     max-width: 100%
@@ -309,17 +313,10 @@ table {
     margin: 3rem auto 3.5rem;
   }
 
-  p {
+  p, .post-content ul {
     font-size: 1rem;
     line-height: 1.5rem;
     max-width: 75ch
-  }
-  .post-content ul {
-    font-size:1.4rem; margin-left: 3rem;
-  }
-
-  li::marker {
-    color: #00e6ac;
   }
 
   table {
@@ -370,7 +367,7 @@ table {
     margin: 3rem auto 3.5rem;
   }
 
-  p {
+  p, .post-content ul {
     font-size: 1rem;
     line-height: 1.5rem;
     max-width: 75ch
@@ -420,7 +417,7 @@ table {
     margin: 3rem auto 3.5rem;
   }
 
-  p {
+  p, .post-content ul {
     font-size: 1.4rem;
     line-height: 2.1rem;
     max-width: 75ch
