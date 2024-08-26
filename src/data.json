@@ -472,7 +472,7 @@
     ]
   },
   {
-    "script": "Kadu (Asak Kyein)",
+    "script": "Kadu (Asak&nbsp;Kyein)",
     "orthography": "",
     "languages": "Kadu",
     "location": "Northern Myanmar",
@@ -498,7 +498,7 @@
     ]
   },
   {
-    "script": "Kadu (Lon Akkhara)",
+    "script": "Kadu (Lon&nbsp;Akkhara)",
     "orthography": "",
     "languages": "Kadu",
     "location": "Northern Myanmar",
@@ -1417,7 +1417,7 @@
     "status": [
       "Encoded in Myanmar ranges"
     ],
-    "links": ""
+    "links": "Wikipedia;https://en.wikipedia.org/wiki/Old_Burmese"
   },
   {
     "script": "Mon-Burmese",
@@ -1639,7 +1639,7 @@
     "languages": "Pali, Sanskrit",
     "location": "Cambodia (historic)<br>Arakan, Myanmar (historic)",
     "image": "Siddham.png",
-    "status": [""
+    "status": ["Requirements uncertain"
     ],
     "links": [
       "Images on Twitter;https://x.com/OhBendy/status/1082349757232758785",
