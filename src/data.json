@@ -11,7 +11,7 @@
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Buri_Wolio"
     ],
-    "note": "We include the Lik scripts used by Tai groups, We include the Lik scripts used by Tai groups"
+    "note": ""
   },
   {
     "script": "Arabic",
@@ -1132,11 +1132,12 @@
     "location": "Assam & Arunachal Pradesh, India",
     "image": "Revised Khamti.png",
     "status": [
-      "Chau Khouk Manpoong’s 1993 version of the script is still found in use, but is no  longer taught in schools"
+      "Not encoded"
     ],
     "links": [
       "Character set;https://www.elararchive.org/uncategorized/IO_d056bdcb-0a14-41ff-bcdd-89e2f87d1a29/"
-    ]
+    ],
+    "note": "Chau Khouk Manpoong’s 1993 version of the script is still found in use, but is no  longer taught in schools."
   },
   {
     "script": "Lik Tai",
@@ -1277,11 +1278,12 @@
     "location": "Arakan, Myanmar (historic)<br>Bangladesh<br>Tripura, India",
     "image": "Arakanese.png",
     "status": [
-      "Probably best treated as a stylistic variant of Burmese"
+      ""
     ],
     "links": [
       "Attestations;https://www.unicode.org/L2/L2020/20163-arakanese-mon.pdf#page=6"
-    ]
+    ],
+    "note": "Probably best treated as a stylistic variant of Burmese."
   },
   {
     "script": "Mon-Burmese",
@@ -1397,12 +1399,14 @@
     "languages": "Mon, Pali",
     "location": "Thailand",
     "image": "Thai Mon.png",
-    "status": [
-      "Probably best treated as a stylistic variant of Mon"
+    "status": [ ""
     ],
     "links": [
       "Attestations;https://www.unicode.org/L2/L2020/20163-arakanese-mon.pdf#page=15"
-    ]
+    ],
+    "note": [      
+    "Probably best treated as a stylistic variant of Mon"
+    ],
   },
   {
     "script": "Mon-Burmese",
@@ -1635,13 +1639,15 @@
     "languages": "Pali, Sanskrit",
     "location": "Cambodia (historic)<br>Arakan, Myanmar (historic)",
     "image": "Siddham.png",
-    "status": [
-      "Cambodian forms look very different from what’s encoded"
+    "status": [""
     ],
     "links": [
       "Images on Twitter;https://x.com/OhBendy/status/1082349757232758785",
       "Image on Instagram;https://www.instagram.com/p/C0WVPWESqYX/"
-    ]
+    ],
+    "note": [
+      "Cambodian forms look very different from what’s encoded"
+    ],
   },
   {
     "script": "Southern Brahmi (Pallava)",

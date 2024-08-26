@@ -315,7 +315,7 @@
             <div class="table-cell">Image</div>
             <div class="table-cell text-nowrap">Unicode Status</div>
             <div class="table-cell">Links</div>
-            <div class="table-cell">Note</div>
+            <div class="table-cell">Notes</div>
           </div>
         </div>
         <div id="table-body" class="table-row-group [&>.table-row:last-child>.table-cell]:!border-b-0">
