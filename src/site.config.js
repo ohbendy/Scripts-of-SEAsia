@@ -1,5 +1,5 @@
 export default {
-  site: "https://sovichet.github.io",
-  base: "/scripts-of-southeast-asia", // Being with a slash
+  site: "https://ohbendy.github.io",
+  base: "/Scripts-of-SEAsia", // Being with a slash
   name: "Scripts of Southeast Asia"
 }
