@@ -16,7 +16,7 @@
   {
     "script": "Arabic",
     "orthography": "Jawi",
-    "languages": "Malay, Acehnese, Banjarese, Kerinci, Maguindanao, Minangkabau, Tausūg, Ternate",
+    "languages": "Malay, Acehnese, Banjarese, Kerinci, Maguindanao, Minangkabau, Pattani Malay, Tausūg, Ternate",
     "location": "Brunei<br>Indonesia<br>Malaysia<br>Thailand",
     "image": "Jawi.png",
     "status": [
@@ -472,10 +472,10 @@
     ]
   },
   {
-    "script": "Kadu",
+    "script": "Kadu (Asak Kyein)",
     "orthography": "",
     "languages": "Kadu",
-    "location": "Central Myanmar",
+    "location": "Northern Myanmar",
     "image": "Kadu.png",
     "status": [
       "New Unicode range needed"
@@ -485,10 +485,10 @@
     ]
   },
   {
-    "script": "Kadu (alternate)",
+    "script": "Kadu (Ulushi)",
     "orthography": "",
     "languages": "Kadu",
-    "location": "Central Myanmar",
+    "location": "Northern Myanmar",
     "image": "Kadu 2.png",
     "status": [
       "New Unicode range needed"
@@ -498,10 +498,10 @@
     ]
   },
   {
-    "script": "Kadu (alternate 2)",
+    "script": "Kadu (Lon Akkhara)",
     "orthography": "",
     "languages": "Kadu",
-    "location": "Central Myanmar",
+    "location": "Northern Myanmar",
     "image": "Kadu 3.png",
     "status": [
       "New Unicode range needed"
@@ -747,6 +747,15 @@
     "links": [
       "Paper;http://user.keio.ac.jp/~kato/LaeKwekaw.pdf"
     ]
+  },
+  {
+    "script": "Kungyangon Karen script",
+    "orthography": "",
+    "languages": "Pwo Karen",
+    "location": "Central Burma",
+    "image": "Unknown 2.png",
+    "status": "",
+    "links": ""
   },
   {
     "script": "Lampung",
@@ -1262,7 +1271,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Arakanese (Rakhine)",
     "languages": "Arakanese (Rakhine), Marma, Rakhing, Mogh",
     "location": "Arakan, Myanmar (historic)<br>Bangladesh<br>Tripura, India",
@@ -1275,7 +1284,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Asho Chin",
     "languages": "Asho Chin",
     "location": "Western Myanmar",
@@ -1288,7 +1297,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Burmese",
     "languages": "Burmese, Intha, Jingpo, Pali, Rakhine, Tavoyan",
     "location": "Myanmar",
@@ -1301,7 +1310,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Eastern Pwo (Phlou)",
     "languages": "Eastern Pwo {Phlou}",
     "location": "",
@@ -1314,7 +1323,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Geba Karen (Eastern&nbsp;Bwe)",
     "languages": "Geba Karen (Eastern&nbsp;Bwe)",
     "location": "Myanmar",
@@ -1328,7 +1337,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Kayah",
     "languages": "Kayah",
     "location": "",
@@ -1341,7 +1350,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Khami",
     "languages": "Khami (Khumi)",
     "location": "",
@@ -1352,7 +1361,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Letalanyah",
     "languages": "S’gaw Karen (Buddhist)",
     "location": "Karen State, Myanmar",
@@ -1363,7 +1372,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Magyi Zi (Tamarind seed script)",
     "languages": "Burmese (rare), Pali",
     "location": "Myanmar",
@@ -1372,7 +1381,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Mon",
     "languages": "Mon, Pali",
     "location": "Eastern Myanmar",
@@ -1383,7 +1392,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Mon (Thailand)",
     "languages": "Mon, Pali",
     "location": "Thailand",
@@ -1396,7 +1405,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Old Burmese",
     "languages": "Old Burmese",
     "location": "Myanmar (historic)",
@@ -1407,7 +1416,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Palaung (Ta’ang, De’ang)",
     "languages": "Shwe Palaung, Rumai Palaung, Pale Palaung (Ruching, Ngwe)",
     "location": "Myanmar",
@@ -1421,7 +1430,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Pa’O",
     "languages": "Pa’O",
     "location": "",
@@ -1432,7 +1441,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Sanskrit",
     "languages": "Sanskrit",
     "location": "",
@@ -1443,7 +1452,7 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "S’gaw Karen",
     "languages": "S’gaw Karen (Christian)",
     "location": "",
@@ -1456,7 +1465,7 @@
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Southern Pa’O",
     "languages": "Southern Pa’O",
     "location": "Myanmar",
@@ -1467,20 +1476,20 @@
     "links": ""
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Taung Yoe",
     "languages": "Taung Yoe",
     "location": "",
     "image": "Taung Yoe.png",
     "status": [
-      "No additional characters needed, one Latin combining mark"
+      "Encoded in Myanmar ranges, one Latin combining mark"
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Taungyo"
     ]
   },
   {
-    "script": "Myanmar",
+    "script": "Mon-Burmese",
     "orthography": "Western Pwo Karen",
     "languages": "Western Pwo Karen",
     "location": "",
@@ -2292,14 +2301,5 @@
     "links": [
       "Mastodon post;https://typo.social/@ohbendy/110510836077273222"
     ]
-  },
-  {
-    "script": "[Unknown Karen script]",
-    "orthography": "",
-    "languages": "Pwo Karen",
-    "location": "Burma?",
-    "image": "Unknown 2.png",
-    "status": "",
-    "links": ""
   }
 ]
