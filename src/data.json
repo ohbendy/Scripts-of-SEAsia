@@ -1,0 +1,2305 @@
+[
+  {
+    "script": "Arabic",
+    "orthography": "Buri Wolio",
+    "languages": "Wolio",
+    "location": "Buton, Indonesia",
+    "image": "Buri Wolio.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Buri_Wolio"
+    ],
+    "note": "We include the Lik scripts used by Tai groups, We include the Lik scripts used by Tai groups"
+  },
+  {
+    "script": "Arabic",
+    "orthography": "Jawi",
+    "languages": "Malay, Acehnese, Banjarese, Kerinci, Maguindanao, Minangkabau, Tausūg, Ternate",
+    "location": "Brunei<br>Indonesia<br>Malaysia<br>Thailand",
+    "image": "Jawi.png",
+    "status": [
+      "Encoded in Arabic ranges"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Jawi_script"
+    ]
+  },
+  {
+    "script": "Arabic",
+    "orthography": "Kirim",
+    "languages": "Maranao",
+    "location": "Mindanao, Philippines",
+    "image": "Kirim.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Website;https://grupokalinangan.org/our-heritage-work/special-projects/0"
+    ]
+  },
+  {
+    "script": "Arabic",
+    "orthography": "Pegon",
+    "languages": "Javanese, Sundanese, Madurese",
+    "location": "Indonesia",
+    "image": "Pegon.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2022/22116-four-pegon-chars.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pegon_script"
+    ]
+  },
+  {
+    "script": "Arabic",
+    "orthography": "Persian",
+    "languages": "Persian",
+    "location": "Mrauk U, Arakan, Myanmar (historic)",
+    "image": "Nastaliq.png",
+    "status": [
+      "Encoded in Arabic ranges"
+    ],
+    "links": [
+      "Paper;https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4B617705BD251009A5AD477B498A2B61/S0021086200030851a.pdf"
+    ]
+  },
+  {
+    "script": "Arabic",
+    "orthography": "Rohingya Fonna",
+    "languages": "Rohingya",
+    "location": "Western Myanmar",
+    "image": "Rohingya Fonna.png",
+    "status": [
+      "Encoded in Arabic Extended A range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Rohingya_Arabic_Alphabet"
+    ]
+  },
+  {
+    "script": "Arabic",
+    "orthography": "Serang",
+    "languages": "Makassar, Bugis",
+    "location": "Indonesia",
+    "image": "Serang.png",
+    "status": [
+      "Encoded in Arabic ranges"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Jawi_script"
+    ]
+  },
+  {
+    "script": "Ariyaka",
+    "orthography": "",
+    "languages": "Pali",
+    "location": "Thailand (historic)",
+    "image": "Ariyaka.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ariyaka_script",
+      "SkyKnowledge;http://skyknowledge.com/ariyaka.htm"
+    ]
+  },
+  {
+    "script": "Balinese",
+    "orthography": "",
+    "languages": "Balinese, Sasak, Kawi (Old Javanese), Sanskrit",
+    "location": "Bali, Indonesia",
+    "image": "Balinese.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Balinese_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Balinese_script"
+    ]
+  },
+  {
+    "script": "Batak",
+    "orthography": "Karo",
+    "languages": "Karo, Hata Poda",
+    "location": "Sumatra, Indonesia",
+    "image": "Karo.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Batak_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Batak_script"
+    ]
+  },
+  {
+    "script": "Batak",
+    "orthography": "Mandailing",
+    "languages": "Mandailing, Hata Poda",
+    "location": "Sumatra, Indonesia",
+    "image": "Mandailing.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Batak_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Batak_script"
+    ]
+  },
+  {
+    "script": "Batak",
+    "orthography": "Pak-pak (Dairi)",
+    "languages": "Pak-pak (Dairi), Hata Poda",
+    "location": "Sumatra, Indonesia",
+    "image": "Pakpak.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Batak_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Batak_script"
+    ]
+  },
+  {
+    "script": "Batak",
+    "orthography": "Simalungun",
+    "languages": "Simalungun, Hata Poda",
+    "location": "Sumatra, Indonesia",
+    "image": "Simalungun.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Batak_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Batak_script"
+    ]
+  },
+  {
+    "script": "Batak",
+    "orthography": "Toba",
+    "languages": "Toba, Hata Poda",
+    "location": "Sumatra, Indonesia",
+    "image": "Toba.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Batak_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Batak_script"
+    ]
+  },
+  {
+    "script": "Baybayin",
+    "orthography": "",
+    "languages": "Tagalog, Sambali, Pangasinan ?",
+    "location": "Luzon, Philippines",
+    "image": "Baybayin.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Tagalog_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Baybayin"
+    ]
+  },
+  {
+    "script": "Baybayin",
+    "orthography": "Badlit (Visayan)",
+    "languages": "Visayan languages",
+    "location": "Visayas, Philippines",
+    "image": "Badlit.png",
+    "status": "",
+    "links": [
+      "Omniglot;https://www.omniglot.com/writing/badlit.htm",
+      "Blogpost;http://akopito.weebly.com/suwat-bisaya.html"
+    ]
+  },
+  {
+    "script": "Baybayin",
+    "orthography": "Basahan (Guhit)",
+    "languages": "Bikol",
+    "location": "Luzon, Philippines",
+    "image": "Basahan.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Basahan"
+    ]
+  },
+  {
+    "script": "Baybayin",
+    "orthography": "Kurditan (Kuritan)",
+    "languages": "Ilocano",
+    "location": "Ilocos region, Philippines",
+    "image": "Kurditan.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Brahmi",
+    "orthography": "",
+    "languages": "Pali, Sanskrit",
+    "location": "Thailand (historic, rare)",
+    "image": "Brahmi.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U11000.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Brahmi_script"
+    ]
+  },
+  {
+    "script": "Buhid",
+    "orthography": "",
+    "languages": "Buhid",
+    "location": "Mindoro, Philippines",
+    "image": "Buhid.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Buhid_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Buhid_script"
+    ]
+  },
+  {
+    "script": "Chak",
+    "orthography": "",
+    "languages": "Chak (Sak, Thet)",
+    "location": "Eastern Bangladesh<br>Western Myanmar",
+    "image": "Chak.png",
+    "status": [
+      "Proposal pending;http://fontpad.co.uk/Documents/Chak_proposal.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Sak_language"
+    ]
+  },
+  {
+    "script": "Chakma (Ajhā&nbsp;Pāṭh)",
+    "orthography": "",
+    "languages": "Chakma, Daingnet (Thetkama), Pali",
+    "location": "Northeastern India<br>Southeastern Bangladesh<br>Western Myanmar",
+    "image": "Chakma.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Chakma_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Chakma_script"
+    ]
+  },
+  {
+    "script": "Cham",
+    "orthography": "Eastern Cham",
+    "languages": "Cham (Eastern dialect)",
+    "location": "Vietnam",
+    "image": "Eastern Cham.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Cham_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Cham_language"
+    ]
+  },
+  {
+    "script": "Cham",
+    "orthography": "Western Cham",
+    "languages": "Western Cham (Western dialect)",
+    "location": "Cambodia",
+    "image": "Western Cham.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2022/22095-western-cham.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Cham_language"
+    ]
+  },
+  {
+    "script": "Cham",
+    "orthography": "Old Cham",
+    "languages": "Old Cham",
+    "location": "Vietnam",
+    "image": "Old Cham.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Old_Cham"
+    ]
+  },
+  {
+    "script": "Chong",
+    "orthography": "",
+    "languages": "Chong",
+    "location": "Eastern Thailand",
+    "image": "Chong.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Chong_language"
+    ]
+  },
+  {
+    "script": "Chữ Nôm",
+    "orthography": "",
+    "languages": "Vietnamese",
+    "location": "Vietnam (historic)",
+    "image": "Chu Nom.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m"
+    ]
+  },
+  {
+    "script": "Danu",
+    "orthography": "",
+    "languages": "Danu",
+    "location": "Myanmar",
+    "image": "Danu.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Intha-Danu_language"
+    ]
+  },
+  {
+    "script": "Eebee Hmong",
+    "orthography": "",
+    "languages": "Hmong Daw (White Hmong)",
+    "location": "Laos?<br>Thailand",
+    "image": "Eebee Hmong.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2015/15180-n4668-eebee-hmong.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Hmong_writing#Sayaboury_script"
+    ]
+  },
+  {
+    "script": "Eskayan",
+    "orthography": "",
+    "languages": "Eskayan",
+    "location": "Bohol, Philippines",
+    "image": "Eskayan.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Eskayan_script"
+    ]
+  },
+  {
+    "script": "Fakkham",
+    "orthography": "",
+    "languages": "Northern Thai",
+    "location": "Northern Thailand (historic)<br>Laos",
+    "image": "Fakkham.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Fakkham_script"
+    ]
+  },
+  {
+    "script": "Gangga Malayu",
+    "orthography": "",
+    "languages": "",
+    "location": "Malaysia",
+    "image": "Gangga Malayu.png",
+    "status": [
+      "Proposal pending;http://www.unicode.org/L2/L2011/11151-gangga-malayu.pdf"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Hangul",
+    "orthography": "",
+    "languages": "Cia Cia (Butonese)",
+    "location": "Buton, Indonesia",
+    "image": "Cia Cia.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Cia-Cia_language#Hangul"
+    ]
+  },
+  {
+    "script": "Hanifi Rohingya",
+    "orthography": "",
+    "languages": "Rohingya",
+    "location": "Western Myanmar<br>Bangladesh",
+    "image": "Hanifi Rohingya.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U10D00.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Hanifi_Rohingya_script",
+      "Unicode proposal;https://unicode.org/L2/L2015/15278-hanifi-rohingya.pdf"
+    ]
+  },
+  {
+    "script": "Hanunó’o",
+    "orthography": "",
+    "languages": "Hanunó’o",
+    "location": "Mindoro, Philippines",
+    "image": "Hanuno'o.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Hanunoo_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Hanunoo_script"
+    ]
+  },
+  {
+    "script": "Iban (Dunging)",
+    "orthography": "",
+    "languages": "Iban",
+    "location": "Sarawak, Malaysia",
+    "image": "Iban.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Dunging_script",
+      "Article;https://phys.org/news/2015-05-reviving-iban-alphabet.html"
+    ]
+  },
+  {
+    "script": "Javanese",
+    "orthography": "",
+    "languages": "Javanese, Sundanese, Madurese, Sasak, Malay, Kawi, Sanskrit",
+    "location": "Java, Indonesia",
+    "image": "Javanese.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Javanese_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Javanese_script"
+    ]
+  },
+  {
+    "script": "Kadu",
+    "orthography": "",
+    "languages": "Kadu",
+    "location": "Central Myanmar",
+    "image": "Kadu.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kadu_language"
+    ]
+  },
+  {
+    "script": "Kadu (alternate)",
+    "orthography": "",
+    "languages": "Kadu",
+    "location": "Central Myanmar",
+    "image": "Kadu 2.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kadu_language"
+    ]
+  },
+  {
+    "script": "Kadu (alternate 2)",
+    "orthography": "",
+    "languages": "Kadu",
+    "location": "Central Myanmar",
+    "image": "Kadu 3.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kadu_language"
+    ]
+  },
+  {
+    "script": "Kawi",
+    "orthography": "",
+    "languages": "Old Javanese, Old Balinese, Old Sundanese, Old Malay, Sanskrit",
+    "location": "Indonesia (historic)<br>Malaysia<br>Philippines",
+    "image": "Kawi.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Kawi_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kawi_script"
+    ]
+  },
+  {
+    "script": "Kawi",
+    "orthography": "Buda (Gunung)",
+    "languages": "Old Javanese, Old Sundanese",
+    "location": "Bali, Java, Indonesia",
+    "image": "Buda.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Buda_script",
+      "British Library;https://blogs.bl.uk/asian-and-african/2023/09/javanese-palm-leaf-manuscripts-written-in-buda-script-in-the-british-library.html"
+    ]
+  },
+  {
+    "script": "Kayah&nbsp;Li",
+    "orthography": "",
+    "languages": "Eastern Kayah, Western Kayah",
+    "location": "Eastern Myanmar",
+    "image": "Kayah Li.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Kayah_Li_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kayah_Li_alphabet"
+    ]
+  },
+  {
+    "script": "Kerinci (Incung)",
+    "orthography": "",
+    "languages": "Kerinci",
+    "location": "Sumatra, Indonesia",
+    "image": "Kerinci.png",
+    "status": [
+      "Proposal pending;https://unicode.org/L2/L2016/16074-kerinci.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ulu_scripts"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Modern Khmer",
+    "languages": "Khmer",
+    "location": "Cambodia",
+    "image": "Khmer.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Khmer_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Khmer_script"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Bunong",
+    "languages": "Bunong / Mnong",
+    "location": "Cambodia<br>Vietnam",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Mnong_language"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Tampuan",
+    "languages": "Tampuan",
+    "location": "Cambodia",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tampuan_language"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Brao",
+    "languages": "Brao",
+    "location": "Cambodia<br>Laos<br>Vietnam",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Brao_language"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Krung",
+    "languages": "Krung (Brao)",
+    "location": "Cambodia<br>Laos<br>Vietnam",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Brao_language"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Jarai",
+    "languages": "Jarai",
+    "location": "Cambodia<br>Vietnam",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Jarai_language"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Kuy (Kuay)",
+    "languages": "Kuy (Kuay)",
+    "location": "Cambodia<br>Thailand<br>Laos",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kuy_language"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Pali",
+    "languages": "Pali",
+    "location": "Cambodia",
+    "image": "",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Sanskrit",
+    "languages": "Sanskrit",
+    "location": "Cambodia",
+    "image": "",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Old Khmer",
+    "languages": "Old Khmer",
+    "location": "Cambodia",
+    "image": "Old Khmer.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Old_Khmer"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Middle Khmer",
+    "languages": "Middle Khmer",
+    "location": "Cambodia",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Middle_Khmer"
+    ]
+  },
+  {
+    "script": "Khmer",
+    "orthography": "Khom",
+    "languages": "Pali, Sanskrit, Khmer, Thai",
+    "location": "Thailand<br>Laos",
+    "image": "Khom.png",
+    "status": [
+      "Extra characters (tonemarks, independent vowels) need encoding"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Khom_Thai_script"
+    ]
+  },
+  {
+    "script": "Khom (Ong Kommadam)",
+    "orthography": "",
+    "languages": "Alak, Juk, Lao, Su’, Jru’",
+    "location": "Laos",
+    "image": "Khom 2.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Khom_script_(Ong_Kommadam)"
+    ]
+  },
+  {
+    "script": "Kulitan (Sulat Kapampangan)",
+    "orthography": "",
+    "languages": "Kapampangan",
+    "location": "Luzon, Philippines",
+    "image": "Kulitan.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2015/15232-kulitan.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kulitan"
+    ]
+  },
+  {
+    "script": "Kuy",
+    "orthography": "",
+    "languages": "Kuy",
+    "location": "Cambodia<br>Laos<br>Thailand",
+    "image": "Kuy.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kuy_language",
+      "YouTube video;https://www.youtube.com/watch?v=qLexzvH1QNE"
+    ]
+  },
+  {
+    "script": "Kwekaw",
+    "orthography": "",
+    "languages": "S’gaw, Eastern Pwo, Western Pwo",
+    "location": "Eastern Myanmar<br>Western Thailand",
+    "image": "Kwekaw.png",
+    "status": [
+      "Proposal pending;http://fontpad.co.uk/Documents/Kwekaw_proposal.pdf"
+    ],
+    "links": [
+      "Paper;http://user.keio.ac.jp/~kato/LaeKwekaw.pdf"
+    ]
+  },
+  {
+    "script": "Lampung",
+    "orthography": "",
+    "languages": "Lampung",
+    "location": "Sumatra, Indonesia",
+    "image": "Lampung.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2022/22044-lampung.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lampung_language#Writing_system"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Modern Lao",
+    "languages": "Lao",
+    "location": "Laos<br>Thailand",
+    "image": "Lao.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Lao_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lao_script"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Bru",
+    "languages": "Bru",
+    "location": "Laos<br>Cambodia<br>Vietnam",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Bru_language"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Jru",
+    "languages": "Jru’ (Laven, Loven, Boloven)",
+    "location": "Laos",
+    "image": "Jru Lao.png",
+    "status": [
+      "Encoded in Lao range"
+    ],
+    "links": [
+      "Paper;http://sealang.net/sala/archives/pdf4/jacq2004development.pdf"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Katang",
+    "languages": "Katang",
+    "location": "Laos",
+    "image": "Katang Lao.png",
+    "status": [
+      "Encoded in Lao range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Katang_people"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Khmu",
+    "languages": "Khmu",
+    "location": "Laos",
+    "image": "Khmu Lao.png",
+    "status": [
+      "Encoded in Lao range"
+    ],
+    "links": [
+      "Unicode proposal;http://unicode.org/L2/L2010/10335r-n3893r.pdf"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Kuy (Kuay)",
+    "languages": "Kuy (Kuay)",
+    "location": "Cambodia<br>Laos<br>Thailand",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kuy_language"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Pali & Sanskrit",
+    "languages": "Pali, Sanskrit",
+    "location": "Laos",
+    "image": "Lao Pali.png",
+    "status": [
+      "Encoded;http://www.unicode.org/L2/L2017/17106-lao-for-pali.pdf"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Lao",
+    "orthography": "Phunoi",
+    "languages": "Phunoi",
+    "location": "Laos",
+    "image": "",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Phunoi_language"
+    ]
+  },
+  {
+    "script": "Lao",
+    "orthography": "Tai Dam",
+    "languages": "",
+    "location": "",
+    "image": "",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lao&nbsp;Buhan (Thai Noi)",
+    "orthography": "",
+    "languages": "Lao, Pali, Sanskrit",
+    "location": "Thailand<br>Laos (historic)",
+    "image": "Lao Buhan.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Noi_script"
+    ]
+  },
+  {
+    "script": "Lao&nbsp;Buhan (Thai Noi)",
+    "orthography": "Lao Chiang",
+    "languages": "",
+    "location": "Laos (historic)",
+    "image": "Lao Chiang.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Leke",
+    "orthography": "",
+    "languages": "Eastern Pwo",
+    "location": "Eastern Myanmar<br>Western Thailand",
+    "image": "Leke.png",
+    "status": [
+      "Proposal pending;http://std.dkuug.dk/jtc1/sc2/wg2/docs/n4438.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Leke_script"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Tai Ahom",
+    "languages": "Tai Ahom",
+    "location": "Assam, Arunachal Pradesh, India",
+    "image": "Ahom.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Ahom_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ahom_script"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Long script (traditional)<br>(Lik&nbsp;Hto&nbsp;Ngouk, Lik&nbsp;To&nbsp;Yao)",
+    "languages": "Tai Dehong",
+    "location": "China",
+    "image": "Tai Dehong.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Long script (traditional)<br>(Lik&nbsp;Hto&nbsp;Ngouk, Lik&nbsp;To&nbsp;Yao)",
+    "languages": "Tai Mao (Chinese Shan)",
+    "location": "China<br>Eastern Myanmar",
+    "image": "Tai Mao.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Long script (traditional)<br>(Lik&nbsp;Hto&nbsp;Ngouk, Lik&nbsp;To&nbsp;Yao)",
+    "languages": "Tai Le",
+    "location": "China",
+    "image": "Tai Le.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Le_script"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Long script (traditional)<br>(Lik&nbsp;Hto&nbsp;Ngouk, Lik&nbsp;To&nbsp;Yao)",
+    "languages": "Tai Neua",
+    "location": "China<br>Northern and Eastern Myanmar<br>Northern Laos",
+    "image": "Tai Neua.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Long script (traditional)<br>(Lik&nbsp;Hto&nbsp;Ngouk, Lik&nbsp;To&nbsp;Yao)",
+    "languages": "Tai Sar",
+    "location": "China",
+    "image": "Tai Sar Long.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Long script (reformed)",
+    "languages": "Tai Dehong, Tai Le, Tai Mao",
+    "location": "Yunnan, China<br>Shan State, Myanmar",
+    "image": "Tai Le Reformed.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Tai_Le_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Le_script"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Shan (Tai Yai, Tai Long, Tai Mao)",
+    "location": "Eastern Myanmar<br>Northern Thailand",
+    "image": "Shan Round.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Shan_alphabet"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Tai Neua",
+    "location": "China<br>Northern and Eastern Myanmar",
+    "image": "Tai Neua round.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Tai Khamti",
+    "location": "Northern Myanmar<br>Assam & Arunachal Pradesh, India",
+    "image": "Khamti undotted.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Tai Naing (Tai Laing/Leng, Shan Ni)",
+    "location": "Northern Myanmar",
+    "image": "Tai Laing traditional.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Laing_language",
+      "Unicode proposal;https://www.unicode.org/L2/L2012/12012-n3976-mymr-extras.pdf"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Tai Phake",
+    "location": "Assam & Arunachal Pradesh, India",
+    "image": "",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Phake_language"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Tai Turung (Tairong)",
+    "location": "Assam, India",
+    "image": "Turung.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Turung_language"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Tai Sar",
+    "location": "Yunnan, China<br>Northern Myanmar",
+    "image": "",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional undotted)<br>(Lik&nbsp;Hto&nbsp;Moun)",
+    "languages": "Pa’O, Ta’Ang, Palaung",
+    "location": "Northern Myanmar",
+    "image": "",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (reformed)",
+    "languages": "Shan (Tai Yai, Tai Long, Tai Mao)",
+    "location": "Eastern Myanmar, Northern Thailand",
+    "image": "Shan.png",
+    "status": [
+      "Encoded in Myanmar range"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (reformed)",
+    "languages": "Shan Pali",
+    "location": "Eastern Myanmar, Northern Thailand",
+    "image": "Shan Pali.png",
+    "status": [
+      "Encoded in Myanmar Extended A range"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (reformed)",
+    "languages": "Tai Naing (Tai Laing/Leng, Shan Ni)",
+    "location": "Northern Myanmar",
+    "image": "Tai Laing.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Laing_language",
+      "Unicode proposal;https://www.unicode.org/L2/L2012/12012-n3976-mymr-extras.pdf"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (reformed)",
+    "languages": "Tai Sar (Tai Soh, Maingtha)",
+    "location": "Northern Myanmar",
+    "image": "Tai Sar.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Image (scroll to bottom);https://github.com/ohbendy/Myanmar-font-resources/blob/master/UTN11%20addenda.md#additional-languages"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Revised Khamti",
+    "languages": "Khamti",
+    "location": "Assam & Arunachal Pradesh, India",
+    "image": "Revised Khamti.png",
+    "status": [
+      "Chau Khouk Manpoong’s 1993 version of the script is still found in use, but is no  longer taught in schools"
+    ],
+    "links": [
+      "Character set;https://www.elararchive.org/uncategorized/IO_d056bdcb-0a14-41ff-bcdd-89e2f87d1a29/"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional with large dots)",
+    "languages": "Tai Phake, Tai Aiton, Tai Khamyang (Nora)",
+    "location": "Assam & Arunachal Pradesh, India",
+    "image": "Khamyang Large Dots.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Aiton_language"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional with large dots)",
+    "languages": "Tai Naing (Tai Laing/Leng, Shan Ni)",
+    "location": "Northern Myanmar",
+    "image": "Tai Laing large dots.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Laing_language",
+      "Unicode proposal;https://www.unicode.org/L2/L2012/12012-n3976-mymr-extras.pdf"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional with small dots)",
+    "languages": "Tai Phake",
+    "location": "Assam & Arunachal Pradesh, India",
+    "image": "Phake small dots.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Phake_language"
+    ]
+  },
+  {
+    "script": "Lik Tai",
+    "orthography": "Round script (traditional with small dots)",
+    "languages": "Tai Khamti, Tai Khamyang (Nora)",
+    "location": "Assam & Arunachal Pradesh, India",
+    "image": "Khamti small dots.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_Extended-B"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Khamyang_language"
+    ]
+  },
+  {
+    "script": "Lontara (Bugis)",
+    "orthography": "",
+    "languages": "Buginese, Makassarese, Mandar",
+    "location": "Sulawesi, Indonesia",
+    "image": "Lontara.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Buginese_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lontara_script"
+    ]
+  },
+  {
+    "script": "Lontara (Bugis)",
+    "orthography": "Bima",
+    "languages": "Bima",
+    "location": "West Nusa Tenggara, Indonesia",
+    "image": "Bima.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2022/22150-biima-script.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Bima_language"
+    ]
+  },
+  {
+    "script": "Lontara (Bugis)",
+    "orthography": "Lota ende",
+    "languages": "Ende",
+    "location": "Flores, Indonesia",
+    "image": "Lota Ende.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ende_language_(Indonesia)"
+    ]
+  },
+  {
+    "script": "Lontara (Bugis)",
+    "orthography": "Satera Jontal",
+    "languages": "Sumbawa",
+    "location": "West Nusa Tenggara, Indonesia",
+    "image": "Satera Jontal.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Sumbawa_language",
+      "Paper;https://lingdy.aa-ken.jp/wp-content/uploads/2014/02/140227-intl-symp-and-ws_asako_shiohara_paper.pdf"
+    ]
+  },
+  {
+    "script": "Lontara Bilang Bilang",
+    "orthography": "",
+    "languages": "Buginese",
+    "location": "Sulawesi, Indonesia",
+    "image": "Bilang Bilang.png",
+    "status": [
+      "New Unicode range provisionally assigned, no proposal yet"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lontara_Bilang-bilang_script"
+    ]
+  },
+  {
+    "script": "Makassarese",
+    "orthography": "",
+    "languages": "Makassarese",
+    "location": "Sulawesi, Indonesia (historic)",
+    "image": "Makassarese.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Makasar_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Makasar_script"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Arakanese (Rakhine)",
+    "languages": "Arakanese (Rakhine), Marma, Rakhing, Mogh",
+    "location": "Arakan, Myanmar (historic)<br>Bangladesh<br>Tripura, India",
+    "image": "Arakanese.png",
+    "status": [
+      "Probably best treated as a stylistic variant of Burmese"
+    ],
+    "links": [
+      "Attestations;https://www.unicode.org/L2/L2020/20163-arakanese-mon.pdf#page=6"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Asho Chin",
+    "languages": "Asho Chin",
+    "location": "Western Myanmar",
+    "image": "Asho Chin.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Wikipedia Burmese;https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%9B%E1%80%BE%E1%80%AD%E1%80%AF%E1%80%81%E1%80%BB%E1%80%84%E1%80%BA%E1%80%B8%E1%80%9C%E1%80%B0%E1%80%99%E1%80%BB%E1%80%AD%E1%80%AF%E1%80%B8"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Burmese",
+    "languages": "Burmese, Intha, Jingpo, Pali, Rakhine, Tavoyan",
+    "location": "Myanmar",
+    "image": "Burmese.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Myanmar_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Burmese_language"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Eastern Pwo (Phlou)",
+    "languages": "Eastern Pwo {Phlou}",
+    "location": "",
+    "image": "Eastern Pwo.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Geba Karen (Eastern&nbsp;Bwe)",
+    "languages": "Geba Karen (Eastern&nbsp;Bwe)",
+    "location": "Myanmar",
+    "image": "Geba Karen.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Geba_Karen_language",
+      "Proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Kayah",
+    "languages": "Kayah",
+    "location": "",
+    "image": "Kayah.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Khami",
+    "languages": "Khami (Khumi)",
+    "location": "",
+    "image": "Khami.png",
+    "status": [
+      "Extra characters need encoding"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Letalanyah",
+    "languages": "S’gaw Karen (Buddhist)",
+    "location": "Karen State, Myanmar",
+    "image": "Letalanyah.png",
+    "status": [
+      "Extra characters need encoding"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Magyi Zi (Tamarind seed script)",
+    "languages": "Burmese (rare), Pali",
+    "location": "Myanmar",
+    "image": "Magyi Zi.png",
+    "status": "",
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Mon",
+    "languages": "Mon, Pali",
+    "location": "Eastern Myanmar",
+    "image": "Mon.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Mon (Thailand)",
+    "languages": "Mon, Pali",
+    "location": "Thailand",
+    "image": "Thai Mon.png",
+    "status": [
+      "Probably best treated as a stylistic variant of Mon"
+    ],
+    "links": [
+      "Attestations;https://www.unicode.org/L2/L2020/20163-arakanese-mon.pdf#page=15"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Old Burmese",
+    "languages": "Old Burmese",
+    "location": "Myanmar (historic)",
+    "image": "Old Burmese.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Palaung (Ta’ang, De’ang)",
+    "languages": "Shwe Palaung, Rumai Palaung, Pale Palaung (Ruching, Ngwe)",
+    "location": "Myanmar",
+    "image": "Palaung.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2012/12012-n3976-mymr-extras.pdf",
+      "Ruching website;https://www.palaung-ruch.com/pce"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Pa’O",
+    "languages": "Pa’O",
+    "location": "",
+    "image": "Pa'O.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Sanskrit",
+    "languages": "Sanskrit",
+    "location": "",
+    "image": "Sanskrit.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "S’gaw Karen",
+    "languages": "S’gaw Karen (Christian)",
+    "location": "",
+    "image": "S'gaw Karen.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Southern Pa’O",
+    "languages": "Southern Pa’O",
+    "location": "Myanmar",
+    "image": "Southern Pa'O.png",
+    "status": [
+      "Extra characters need encoding"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Taung Yoe",
+    "languages": "Taung Yoe",
+    "location": "",
+    "image": "Taung Yoe.png",
+    "status": [
+      "No additional characters needed, one Latin combining mark"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Taungyo"
+    ]
+  },
+  {
+    "script": "Myanmar",
+    "orthography": "Western Pwo Karen",
+    "languages": "Western Pwo Karen",
+    "location": "",
+    "image": "Western Pwo.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
+    ]
+  },
+  {
+    "script": "Mru (Mro)",
+    "orthography": "",
+    "languages": "Mru",
+    "location": "Eastern Bangladesh, Western Myanmar",
+    "image": "Mro.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Mru_language#Script"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Mro_(Unicode_block)"
+    ]
+  },
+  {
+    "script": "New Tai Lue",
+    "orthography": "",
+    "languages": "Tai Lue",
+    "location": "China",
+    "image": "New Tai Lue.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U1980.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/New_Tai_Lue_alphabet"
+    ]
+  },
+  {
+    "script": "Nung Lungmi",
+    "orthography": "",
+    "languages": "Nung Lungmi",
+    "location": "Northern Myanmar",
+    "image": "Nung Lungmi.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Image;https://www.facebook.com/photo.php?fbid=116262667465857&set=pb.100072463727917.-2207520000"
+    ]
+  },
+  {
+    "script": "Nyiakeng Puachue Hmong",
+    "orthography": "",
+    "languages": "Hmong Daw (White Hmong), Hmong Njua (Hmong Leng, Green Hmong)",
+    "location": "Laos<br>Thailand<br>Vietnam",
+    "image": "Nyiakeng Puachue Hmong.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Nyiakeng_Puachue_Hmong_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Nyiakeng_Puachue_Hmong"
+    ]
+  },
+  {
+    "script": "Old Mon",
+    "orthography": "",
+    "languages": "Mon",
+    "location": "Myanmar<br>Thailand (historic)",
+    "image": "Old Mon.png",
+    "status": "",
+    "links": [
+      "Wikipedia (Caution this page is confused);https://en.wikipedia.org/wiki/Mon%E2%80%93Burmese_script"
+    ]
+  },
+  {
+    "script": "Pahawh Hmong",
+    "orthography": "",
+    "languages": "Hmong Daw (White Hmong), Hmong Njua (Hmong Leng, Green Hmong)",
+    "location": "Laos",
+    "image": "Pahawh Hmong.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U16B00.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pahawh_Hmong"
+    ]
+  },
+  {
+    "script": "Pau Cin Hau",
+    "orthography": "",
+    "languages": "Tedim",
+    "location": "Western Myanmar",
+    "image": "Pau Cin Hau.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U11AC0.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pau_Cin_Hau_script"
+    ]
+  },
+  {
+    "script": "Pau Cin Hau Logographs",
+    "orthography": "",
+    "languages": "Tedim",
+    "location": "Western Myanmar",
+    "image": "Pau Cin Hau Logographs.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2010/10438-paucinhau-logographs.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pau_Cin_Hau_script"
+    ]
+  },
+  {
+    "script": "Pyu",
+    "orthography": "",
+    "languages": "Pyu",
+    "location": "Myanmar (historic)",
+    "image": "Pyu.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pyu_language_(Sino-Tibetan)"
+    ]
+  },
+  {
+    "script": "Siamese Grantha (Chiang Khrün, Chiang Phram)",
+    "orthography": "",
+    "languages": "Sanskrit, Thai, Tamil",
+    "location": "Thailand (historic)",
+    "image": "Siamese Grantha.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Digitised manuscript;https://www.digitale-sammlungen.de/en/view/bsb00129277?page=,1"
+    ]
+  },
+  {
+    "script": "Siddhaṃ (Siddhamātṛkā)",
+    "orthography": "",
+    "languages": "Pali, Sanskrit",
+    "location": "Cambodia (historic)<br>Arakan, Myanmar (historic)",
+    "image": "Siddham.png",
+    "status": [
+      "Cambodian forms look very different from what’s encoded"
+    ],
+    "links": [
+      "Images on Twitter;https://x.com/OhBendy/status/1082349757232758785",
+      "Image on Instagram;https://www.instagram.com/p/C0WVPWESqYX/"
+    ]
+  },
+  {
+    "script": "Southern Brahmi (Pallava)",
+    "orthography": "",
+    "languages": "Sanskrit, Pali, Old Cham, Old Khmer …",
+    "location": "Cambodia<br>Indonesia<br>Myanmara<br>Thailand<br>Vietnam&lt;…",
+    "image": "Southern Brahmi.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2018/18083-pallava.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pallava_script"
+    ]
+  },
+  {
+    "script": "Sundanese",
+    "orthography": "Modern Sundanese",
+    "languages": "Modern Sundanese",
+    "location": "West Java, Indonesia",
+    "image": "Sundanese.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Sundanese_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Sundanese_script"
+    ]
+  },
+  {
+    "script": "Sundanese",
+    "orthography": "Old Sundanese",
+    "languages": "Old Sundanese",
+    "location": "West Java, Indonesia",
+    "image": "Old Sundanese.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Old_Sundanese_script",
+      "Digitised manuscript;https://digital.bodleian.ox.ac.uk/objects/ad204470-7490-4316-a015-1063f1513523/surfaces/dafd23d8-2d90-4303-b6ad-eeca50f25e14/"
+    ]
+  },
+  {
+    "script": "Surat Ulu (Rencong, Kaganga)",
+    "orthography": "",
+    "languages": "Lembak",
+    "location": "Sumatra, Indonesia",
+    "image": "",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2021/21116-surat-ulu.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ulu_scripts"
+    ]
+  },
+  {
+    "script": "Surat Ulu (Rencong, Kaganga)",
+    "orthography": "",
+    "languages": "Pasemah",
+    "location": "Sumatra, Indonesia",
+    "image": "Pasemah.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2021/21116-surat-ulu.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ulu_scripts"
+    ]
+  },
+  {
+    "script": "Surat Ulu (Rencong, Kaganga)",
+    "orthography": "",
+    "languages": "Rejang",
+    "location": "Sumatra, Indonesia",
+    "image": "Rejang.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/UA930.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Rejang_alphabet",
+      "Unicode proposal;https://www.unicode.org/L2/L2006/06139-n3096-rejang.pdf"
+    ]
+  },
+  {
+    "script": "Surat Ulu (Rencong, Kaganga)",
+    "orthography": "",
+    "languages": "Serawai",
+    "location": "Sumatra, Indonesia",
+    "image": "",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2021/21116-surat-ulu.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Ulu_scripts"
+    ]
+  },
+  {
+    "script": "Tagbanwa",
+    "orthography": "",
+    "languages": "Tagbanwa, Palawan languages",
+    "location": "Palawan, Philippines",
+    "image": "Tagbanwa.png",
+    "status": [
+      "Encoded;https://en.wikipedia.org/wiki/Tagbanwa_(Unicode_block)"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tagbanwa_script"
+    ]
+  },
+  {
+    "script": "Tai&nbsp;Pao (Lai&nbsp;Pao)",
+    "orthography": "",
+    "languages": "Tai Pao (Tai Hang Tong)",
+    "location": "Laos<br>Vietnam",
+    "image": "Lai Pao.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Pao_language_"
+    ]
+  },
+  {
+    "script": "Tai&nbsp;Viet",
+    "orthography": "",
+    "languages": "Tai Dam ô",
+    "location": "Thailand<br>Vietnam",
+    "image": "Tai Viet.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/UAA80.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tai_Viet_script#Unicode"
+    ]
+  },
+  {
+    "script": "Tai&nbsp;Yo (Qui-châu, Lai&nbsp;Tay)",
+    "orthography": "",
+    "languages": "Tai Yo",
+    "location": "Laos<br>Vietnam",
+    "image": "Tai Yo.png",
+    "status": [
+      "Proposal pending;https://www.unicode.org/L2/L2022/22289-tai-yo-script.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lai_Tay_script"
+    ]
+  },
+  {
+    "script": "Tanchangya",
+    "orthography": "",
+    "languages": "Tanchangya",
+    "location": "Bangladesh<br>Northeastern India<br>Western Myanmar",
+    "image": "Tanchangya.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tanchangya_script"
+    ]
+  },
+  {
+    "script": "Tangsa",
+    "orthography": "",
+    "languages": "Tangsa",
+    "location": "Northeastern India<br>Northern Myanmar",
+    "image": "Tangsa.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U16A70.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Tangsa_language#Orthography",
+      "Unicode proposal;https://www.unicode.org/L2/L2021/21027r-tangsa.pdf"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Modern Thai",
+    "languages": "Thai, Phuan, Phu Thai",
+    "location": "Thailand",
+    "image": "Thai.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U0E00.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Thai_script"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Akha",
+    "languages": "Akha",
+    "location": "",
+    "image": "Akha.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Akha_language"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Bisu",
+    "languages": "Bisu",
+    "location": "Northern Laos<br>Eastern Myanmar<br>Thailand",
+    "image": "Bisu.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Bisu_language",
+      "LangArchive;https://www.langarchive-th.org/th/collection/bisu"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Blang",
+    "languages": "Blang",
+    "location": "Myanmar<br>Central Thailand",
+    "image": "Blang.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Blang website;http://plangchurch1.blogspot.com/p/blog-page_31.html",
+      "Wikipedia;https://en.wikipedia.org/wiki/Blang_language",
+      "LangArchive;https://www.langarchive-th.org/th/collection/plang"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Bru (Sô, Khua)",
+    "languages": "Bru (Sô, Khua)",
+    "location": "Cambodia<br>Laos<br>Vietnam",
+    "image": "Bru.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Bru_language",
+      "SIL International;https://scripts.sil.org/cms/scripts/page.php?id=thailaoseq&site_id=nrsi"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Chong",
+    "languages": "Chong",
+    "location": "Thailand",
+    "image": "Chong Thai.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Chong_language",
+      "LangArchive;https://www.langarchive-th.org/th/collection/chong"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Chung",
+    "languages": "Chung",
+    "location": "Cambodia<br>Thailand",
+    "image": "Chung.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Sa%27och_language",
+      "LangArchive;https://www.langarchive-th.org/en/collection/chung"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Gong",
+    "languages": "Gong",
+    "location": "Western Thailand",
+    "image": "Gong.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Gong_language",
+      "LangRevival;https://langrevival.mahidol.ac.th/project/gong-orthography/"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Iu Mien",
+    "languages": "Iu Mien",
+    "location": "China<br>Laos<br>Thailand<br>Vietnam",
+    "image": "Mien.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Iu_Mien_language",
+      "Paper;https://opal.latrobe.edu.au/articles/thesis/An_Iu_Mien_grammar_a_tool_for_language_documentation_and_revitalisation/21854526/1"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Kasong",
+    "languages": "Kasong",
+    "location": "Eastern Thailand",
+    "image": "Kasong.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Thai Wikipedia;https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%8B%E0%B8%AD%E0%B8%87",
+      "LangArchive;https://www.langarchive-th.org/th/collection/kasong"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Kensiu",
+    "languages": "Kensiu",
+    "location": "Southern Thailand",
+    "image": "",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kensiu_language"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Khmer Surin (Northern Khmer)",
+    "languages": "Khmer Surin",
+    "location": "Cambodia<br>Thailand",
+    "image": "Khmer Surin.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Northern_Khmer_dialect"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Khmu",
+    "languages": "Khmu",
+    "location": "Laos<br>Thailand<br>Vietnam",
+    "image": "Khmu Thai.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Khmu_language",
+      "LangArchive;https://www.langarchive-th.org/th/collection/khmu"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Kuy (Kuay)",
+    "languages": "Kuy (Kuay)",
+    "location": "Cambodia<br>Laos<br>Thailand",
+    "image": "Kuy Thai.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kuy_language",
+      "LangRevival;https://langrevival.mahidol.ac.th/project/kuy-orthography/"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Lawa",
+    "languages": "Lawa",
+    "location": "Northern Thailand",
+    "image": "Lawa.png",
+    "status": [
+      "Encoded in Thai range,",
+      "some Latin combining marks"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lawa_language",
+      "LangRevival;https://langrevival.mahidol.ac.th/project/lawua-orthography/"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Lisu",
+    "languages": "Lisu",
+    "location": "China<br>Northern Myanmar<br>Thailand",
+    "image": "Lisu.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Lisu_language"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Mlabri",
+    "languages": "Mlabri",
+    "location": "Laos<br>Thailand",
+    "image": "Mlabri.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Mlabri_language"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Moken",
+    "languages": "Moken",
+    "location": "Myanmar<br>Thailand",
+    "image": "Moken.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Moken_language",
+      "LangArchive;https://www.langarchive-th.org/th/digital-heritage/moken_cdrel01_0001"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Mpi",
+    "languages": "Mpi",
+    "location": "Northern Thailand",
+    "image": "Mpi.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Mpi_language"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Northern Pwo (Phlong)",
+    "languages": "Northern Pwo (Phlong)",
+    "location": "Thailand",
+    "image": "Northern Pwo.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Northern_Pwo_language"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Nyah Kur",
+    "languages": "Nyah Kur",
+    "location": "Thailand",
+    "image": "Nyah Kur.png",
+    "status": [
+      "Encoded in Thai range,",
+      "Thai glottal stop ʔ needs encoding"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Nyah_Kur_language",
+      "Thai Wikipedia;https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%8D%E0%B8%B1%E0%B8%AE%E0%B8%81%E0%B8%B8%E0%B8%A3",
+      "YouTube video;https://www.youtube.com/watch?v=XHJnL-jMOCU"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Palaung (Ta’ang, De’ang)",
+    "languages": "Palaung (Ta’ang, De’ang)",
+    "location": "Myanmar<br>Thailand",
+    "image": "Thai Palaung.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Palaung_language",
+      "Website;https://www.palaung-th.com/"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Pali & Sanskrit",
+    "languages": "Pali & Sanskrit",
+    "location": "Thailand",
+    "image": "Thai Pali.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Thai_script#Sanskrit_and_Pali"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Pattani Malay",
+    "languages": "Pattani Malay",
+    "location": "Southern Thailand",
+    "image": "Pattani Malay.png",
+    "status": [
+      "Encoded in Thai range,",
+      "some Latin combining marks"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Kelantan-Pattani_Malay",
+      "LangArchive;https://www.langarchive-th.org/th/collection/malayu-patani"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Tak Bai",
+    "languages": "Tak Bai",
+    "location": "Southern Thailand",
+    "image": "Tak Bai.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "LangArchive;https://www.langarchive-th.org/th/collection/takbai"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Thai Nithet",
+    "languages": "Northern Thai",
+    "location": "Thailand (historic)",
+    "image": "Thai Nithet.png",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Manuscript;https://iiif.crossasia.org/s/lanna/manifests/554867/c/562926"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Thai Yor",
+    "languages": "",
+    "location": "Thailand (historic)",
+    "image": "Thai Yor.png",
+    "status": [
+      "Choeng consonants, fan nu and repha need encoding"
+    ],
+    "links": [
+      "Thai Wikipedia;https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%A3%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%A2%E0%B9%88%E0%B8%AD"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Thavung (So)",
+    "languages": "Thavung (So)",
+    "location": "Laos<br>Thailand",
+    "image": "Thavung.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Thai Wikipedia;https://th.wikipedia.org/wiki/%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%82%E0%B8%8B%E0%B9%88_(%E0%B8%97%E0%B8%B0%E0%B8%A7%E0%B8%B7%E0%B8%87)"
+    ]
+  },
+  {
+    "script": "Thai",
+    "orthography": "Urak Lawoi",
+    "languages": "Urak Lawoi",
+    "location": "Southern Thailand",
+    "image": "Urak Lawoi.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Urak_Lawoi%27_language",
+      "LangArchive;https://www.langarchive-th.org/th/collection/uraklawoc"
+    ]
+  },
+  {
+    "script": "Thai Sukhothai",
+    "orthography": "",
+    "languages": "Thai",
+    "location": "Thailand (historic)",
+    "image": "Thai Sukhothai.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Sukhothai_script"
+    ]
+  },
+  {
+    "script": "Tham",
+    "orthography": "Tham&nbsp;Khün (Khuen)",
+    "languages": "Khün, Pali, Sanskrit",
+    "location": "Shan State, Myanmar",
+    "image": "Tham Khuen.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U1A20.pdf"
+    ],
+    "links": [
+      "Wikipedia"
+    ]
+  },
+  {
+    "script": "Tham",
+    "orthography": "Tham&nbsp;Lanna (Tua&nbsp;Muang, Yuan)",
+    "languages": "Northern Thai, Pali, Sanskrit",
+    "location": "Northern Thailand",
+    "image": "Tham Lanna.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U1A20.pdf"
+    ],
+    "links": [
+      "Wikipedia"
+    ]
+  },
+  {
+    "script": "Tham",
+    "orthography": "Tham&nbsp;Lao (Tham&nbsp;Isaan)",
+    "languages": "Lao, Khmer Surin (Northern Khmer), Pali, Sanskrit",
+    "location": "Laos<br>Northeast Thailand",
+    "image": "Tham Lao.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U1A20.pdf"
+    ],
+    "links": [
+      "Wikipedia"
+    ]
+  },
+  {
+    "script": "Tham",
+    "orthography": "Tham&nbsp;Lue",
+    "languages": "Lue, Pali, Sanskrit, Tai Neua",
+    "location": "China<br>Laos<br>Myanmar",
+    "image": "Tham Lue.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U1A20.pdf"
+    ],
+    "links": [
+      "Wikipedia"
+    ]
+  },
+  {
+    "script": "Wancho",
+    "orthography": "",
+    "languages": "Wancho",
+    "location": "Northeast India<br>Myanmar",
+    "image": "Wancho.png",
+    "status": [
+      "Encoded;https://www.unicode.org/L2/L2017/17067r2-n4787r2-wancho.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Wancho_script"
+    ]
+  },
+  {
+    "script": "Yuttasara",
+    "orthography": "",
+    "languages": "Northern Thai",
+    "location": "Northern Thailand (historic)",
+    "image": "Yuttasara.png",
+    "status": [
+      "New Unicode range needed"
+    ],
+    "links": [
+      "Mastodon post;https://typo.social/@ohbendy/110510836077273222"
+    ]
+  },
+  {
+    "script": "[Unknown Karen script]",
+    "orthography": "",
+    "languages": "Pwo Karen",
+    "location": "Burma?",
+    "image": "Unknown 2.png",
+    "status": "",
+    "links": ""
+  }
+]
