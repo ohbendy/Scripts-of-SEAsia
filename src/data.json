@@ -1421,6 +1421,17 @@
   },
   {
     "script": "Mon-Burmese",
+    "orthography": "Old Mon",
+    "languages": "Old Mon",
+    "location": "Myanmar<br>Thailand (historic)",
+    "image": "Old Mon.png",
+    "status": "",
+    "links": [
+      "Wikipedia (Caution this page is confused);https://en.wikipedia.org/wiki/Mon%E2%80%93Burmese_script"
+    ]
+  },
+  {
+    "script": "Mon-Burmese",
     "orthography": "Palaung (Ta’ang, De’ang)",
     "languages": "Shwe Palaung, Rumai Palaung, Pale Palaung (Ruching, Ngwe)",
     "location": "Myanmar",
@@ -1555,17 +1566,6 @@
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Nyiakeng_Puachue_Hmong"
-    ]
-  },
-  {
-    "script": "Old Mon",
-    "orthography": "",
-    "languages": "Mon",
-    "location": "Myanmar<br>Thailand (historic)",
-    "image": "Old Mon.png",
-    "status": "",
-    "links": [
-      "Wikipedia (Caution this page is confused);https://en.wikipedia.org/wiki/Mon%E2%80%93Burmese_script"
     ]
   },
   {
