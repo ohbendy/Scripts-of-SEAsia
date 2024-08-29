@@ -294,7 +294,10 @@
     }
   })
 
-  searchQuery = "malaysia"
+  if (import.meta.env.DEV) {
+    // searchQuery = "malaysia"
+  }
+
   $: searchQuery, performSearch();
 </script>
 
