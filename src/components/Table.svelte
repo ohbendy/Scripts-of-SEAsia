@@ -66,6 +66,7 @@
     ],
     shouldSort: false,
     threshold: 0.2,
+    ignoreLocation: true
   };
   const fuse = new Fuse(data, options);
 
@@ -293,7 +294,10 @@
     }
   })
 
-  // searchQuery = "lik tai"
+  if (import.meta.env.DEV) {
+    // searchQuery = "malaysia"
+  }
+
   $: searchQuery, performSearch();
 </script>
 
