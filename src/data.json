@@ -1788,7 +1788,8 @@
     "location": "Laos<br>Vietnam",
     "image": "Tai Yo.png",
     "status": [
-      "Proposal pending;https://www.unicode.org/L2/L2022/22289-tai-yo-script.pdf"
+      "Approved for Unicode 17",
+      "Proposal;https://www.unicode.org/L2/L2022/22289-tai-yo-script.pdf"
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Lai_Tay_script"
