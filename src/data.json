@@ -1389,6 +1389,17 @@
   },
   {
     "script": "Mon-Burmese",
+    "orthography": "Moken",
+    "languages": "Moken",
+    "location": "Southern Myanmar",
+    "image": "MokenBurmese.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": ""
+  },
+  {
+    "script": "Mon-Burmese",
     "orthography": "Mon",
     "languages": "Mon, Pali",
     "location": "Eastern Myanmar",
@@ -2064,7 +2075,7 @@
     "orthography": "Moken",
     "languages": "Moken",
     "location": "Myanmar<br>Thailand",
-    "image": "Moken.png",
+    "image": "MokenThai.png",
     "status": [
       "Encoded in Thai range"
     ],
