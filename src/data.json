@@ -1572,7 +1572,7 @@
     ]
   },
   {
-    "script": "Nyiakeng Puachue Hmong",
+    "script": "Nyiakeng Puachue Hmong (Ntawv Paj Ntaub)",
     "orthography": "",
     "languages": "Hmong Daw (White Hmong), Hmong Njua (Hmong Leng, Green Hmong)",
     "location": "Laos<br>Thailand<br>Vietnam",
@@ -1582,6 +1582,9 @@
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Nyiakeng_Puachue_Hmong"
+    ]
+    "note": [
+      "Devised in the 1908s by Reverend Chervang Kong"
     ]
   },
   {
@@ -1597,6 +1600,19 @@
       "Wikipedia;https://en.wikipedia.org/wiki/Pahawh_Hmong"
     ]
   },
+  // { // This is unattested
+  //   "script": "Paj Ntaub (Hmong Flower Script)",
+  //   "orthography": "",
+  //   "languages": "Hmong",
+  //   "location": "",
+  //   "image": "",
+  //   "status": [
+  //     "New Unicode range needed"
+  //   ],
+  //   "links": [
+  //     "https://skyknowledge.com/mong-ntaub.htm"
+  //   ]
+  // },
   {
     "script": "Pau Cin Hau",
     "orthography": "",
