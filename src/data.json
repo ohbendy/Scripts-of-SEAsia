@@ -1600,19 +1600,6 @@
       "Wikipedia;https://en.wikipedia.org/wiki/Pahawh_Hmong"
     ]
   },
-  // { // This is unattested
-  //   "script": "Paj Ntaub (Hmong Flower Script)",
-  //   "orthography": "",
-  //   "languages": "Hmong",
-  //   "location": "",
-  //   "image": "",
-  //   "status": [
-  //     "New Unicode range needed"
-  //   ],
-  //   "links": [
-  //     "https://skyknowledge.com/mong-ntaub.htm"
-  //   ]
-  // },
   {
     "script": "Pau Cin Hau",
     "orthography": "",
