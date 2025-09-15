@@ -1346,6 +1346,22 @@
       "Proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
     ]
   },
+{
+    "script": "Mon-Burmese",
+    "orthography": "Htanaw (Danau/Kanaw)",
+    "languages": "Htanaw (Danau/Kanaw)",
+    "location": "Shan State, Myanmar",
+    "image": "Htanaw.png",
+    "status": [
+      "Encoded in Myanmar ranges"
+    ],
+    "links": [
+      "Htanaw Sar;https://sites.google.com/view/htanawsar/home/htanaw-alphabet-%E1%80%91%E1%80%94%E1%80%A1%E1%80%80%E1%80%81%E1%80%9B%E1%80%99",
+    ],
+    "note": [      
+    "Orthography currently being established (August 2025)"
+    ]
+  },
   {
     "script": "Mon-Burmese",
     "orthography": "Kayah",
