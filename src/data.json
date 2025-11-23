@@ -2271,6 +2271,19 @@
       "Wikipedia;https://en.wikipedia.org/wiki/Sukhothai_script"
     ]
   },
+    {
+    "script": "Tham",
+    "orthography": "Ta'ang (Palaung)",
+    "languages": "Ta'ang (Palaung)",
+    "location": "Shan State, Myanmar",
+    "image": "Tham Ta'ang.png",
+    "status": [
+      "Encoded;https://www.unicode.org/charts/PDF/U1A20.pdf"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Palaung_language"
+    ]
+  },
   {
     "script": "Tham",
     "orthography": "Tham&nbsp;Khün (Khuen)",
