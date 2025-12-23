@@ -1,24 +1,12 @@
 <script>
-  import { afterUpdate, onMount } from "svelte";
+  import { onMount, untrack, } from "svelte";
   import data from "../data.json";
   import Fuse from "fuse.js";
   import Image from "./Image.svelte";
   import config from "../site.config";
   import _ from "lodash";
-
-  // data.forEach(d => {
-  //   if (d.status) {
-  //     let l = d.status.split("<br>");
-  //     l = l.map((v) => {
-  //       var s = v.split(";")
-  //       return (s.length == 2) ? `${s[1]};${s[0]}` : s[0];
-  //     })
-
-  //     d.status = l;
-  //   }
-  // })
-
-  // console.log(JSON.stringify(data))
+  import SortingOrderIcon from "./SortingOrderIcon.svelte";
+  import imagesLoaded from "imagesloaded";
 
   /**
    * @type {HTMLElement}
@@ -30,28 +18,35 @@
    */
   let body;
 
-  let _data = [];
-  let filteredData = [];
-  let searchQuery = "";
-  let bodyHeight = 0;
+  let _data = $state([]);
+  let filteredData = $state([]);
+  let searchQuery = $state("");
+  let bodyHeight = $state(0);
 
-  let tableWrapper;
-  let verticalImage;
-  let overlayImage;
-  let duplicateHeader;
-  let searchInput;
-  let searchBox;
-  let scriptLabels = [];
-  let stickyLabel;
-  let currentLabel = "";
+  let tableWrapper = $state();
+  let verticalImage = $state();
+  let overlayImage = $state();
+  let duplicateHeader = $state();
+  let searchInput = $state();
+  let searchBox = $state();
+  let scriptLabels = $state([]);
+  let stickyLabel = $state();
+  let currentLabel = $state("");
+
+  let rendered = $state(false);
 
   /**
    * @type {HTMLElement}
    */
   let searchbar;
-  let offsetY = 0;
-  let offsetYWithHeader = 0;
-  let offsetLeft = 0;
+  let offsetY = $state(0);
+  let offsetYWithHeader = $state(0);
+  let offsetLeft = $state(0);
+
+  let sortState = $state({
+    field: "",
+    order: 0,
+  });
 
   const options = {
     keys: [
@@ -65,8 +60,8 @@
       "status",
     ],
     shouldSort: false,
-    threshold: 0.2,
-    ignoreLocation: true
+    threshold: 0.12,
+    ignoreLocation: true,
   };
   const fuse = new Fuse(data, options);
 
@@ -82,6 +77,40 @@
 
   function performSearch() {
     filteredData = searchQuery == "" ? _data : fuse.search(searchQuery);
+
+    // Reset the sort state for now.
+    sortState = {
+      field: "",
+      order: 0,
+    };
+
+    rendered = false;
+  }
+
+  function performSort(key) {
+    if (sortState.field && sortState.field == key) {
+      switch (sortState.order) {
+        case 0:
+          sortState.order = 1; // ascender
+          filteredData = _.sortBy(filteredData, ["item." + key]);
+          break;
+        case 1:
+          sortState.order = 2; // descender
+          filteredData = _.reverse(filteredData);
+          break;
+        case 2:
+          sortState.order = 0; // no sorting
+          sortState.field = "";
+          performSearch();
+          break;
+      }
+    } else {
+      sortState.field = key;
+      sortState.order = 1;
+      filteredData = _.sortBy(filteredData, ["item." + key]);
+    }
+
+    rendered = false;
   }
 
   /**
@@ -97,7 +126,9 @@
     text.forEach((val) => {
       var split = val.split(";");
       if (split.length == 2) {
-        newText.push(`<a class="font-semibold underline" href="${split[1]}" target="_blank">${split[0]}</a>`);
+        newText.push(
+          `<a class="font-semibold underline" href="${split[1]}" target="_blank">${split[0]}</a>`
+        );
       } else {
         newText.push(split[0]);
       }
@@ -119,46 +150,52 @@
     offsetY = document.getElementById("main-nav").offsetHeight;
     offsetYWithHeader = offsetY + header.getBoundingClientRect().height;
 
-    tableWrapper.addEventListener("scroll", function (event) {
+    tableWrapper.addEventListener("scroll", (event) => {
       const target = event.target;
       if (duplicateHeader) {
-        duplicateHeader.style.left = offsetLeft - target.scrollLeft + 4 + "px";
+        duplicateHeader.style.left = `${offsetLeft - target.scrollLeft + 4}px`;
       }
     });
 
-    // let actualSearchBox
-    // searchBox.classList.remove("hidden");
-    // document.querySelector("#main-nav .container").appendChild(searchBox);
-    searchbar.style.minHeight = searchBox.clientHeight + "px";
+    searchbar.style.minHeight = `${searchBox.clientHeight}px`;
     searchbar.appendChild(searchBox);
 
-    document.getElementById("main-table").addEventListener("mouseover", function (event) {
-      /**
-       * @type {HTMLElement}
-       */
-      const target = event.target;
-      if (target.tagName == "IMG" && target.parentElement.classList.contains("is-vertical")) {
-        verticalImage = target;
-        overlayImage = document.createElement("img");
-        overlayImage.classList = "img-overlay has-filter absolute shadow-lg shadow-zinc-300";
-        overlayImage.src = verticalImage.src;
-        overlayImage.style.width = verticalImage.getBoundingClientRect().width + "px";
-        overlayImage.style.left = verticalImage.getBoundingClientRect().x + "px";
-        overlayImage.style.top = window.scrollY + verticalImage.getBoundingClientRect().y + "px";
-        overlayImage.style.zIndex = 40;
+    document
+      .getElementById("main-table")
+      .addEventListener("mouseover", (event) => {
+        /**
+         * @type {HTMLElement}
+         */
+        const target = event.target;
+        if (
+          target.tagName == "IMG" &&
+          target.parentElement.classList.contains("is-vertical")
+        ) {
+          verticalImage = target;
+          overlayImage = document.createElement("img");
+          overlayImage.classList =
+            "img-overlay has-filter absolute shadow-lg shadow-zinc-300";
+          overlayImage.src = verticalImage.src;
+          overlayImage.style.width = `${verticalImage.getBoundingClientRect().width}px`;
+          overlayImage.style.left = `${verticalImage.getBoundingClientRect().x}px`;
+          overlayImage.style.top = `${window.scrollY + verticalImage.getBoundingClientRect().y}px`;
+          overlayImage.style.zIndex = 40;
 
-        document.body.appendChild(overlayImage);
+          document.body.appendChild(overlayImage);
 
-        const offset = overlayImage.getBoundingClientRect().top + verticalImage.height - window.innerHeight;
-        const outViewport = offset > 1;
+          const offset =
+            overlayImage.getBoundingClientRect().top +
+            verticalImage.height -
+            window.innerHeight;
+          const outViewport = offset > 1;
 
-        if (outViewport) {
-          overlayImage.style.transform = `translateY(-${offset + 25}px)`;
+          if (outViewport) {
+            overlayImage.style.transform = `translateY(-${offset + 25}px)`;
+          }
         }
-      }
-    });
+      });
 
-    document.body.addEventListener("mouseout", function (event) {
+    document.body.addEventListener("mouseout", (event) => {
       const target = event.target;
       if (target.tagName == "IMG" && target.classList.contains("img-overlay")) {
         const overlays = document.querySelectorAll(".img-overlay");
@@ -169,7 +206,7 @@
       }
     });
 
-    document.addEventListener("keydown", function (event) {
+    document.addEventListener("keydown", (event) => {
       // Check for Ctrl + K on Windows/Linux and Cmd + K on macOS
       const isCtrlOrCmd = event.ctrlKey || event.metaKey;
 
@@ -194,29 +231,37 @@
       }
     });
 
-    window.addEventListener("scroll", function () {
+    window.addEventListener("resize", () => {
+      if (duplicateHeader) {
+        const row = header.children[0];
+        duplicateHeader.style.top = `${offsetY}px`;
+        duplicateHeader.style.left = `${offsetLeft - tableWrapper.scrollLeft + 4}px`;
+        duplicateHeader.style.width = `${row.getBoundingClientRect().width}px`;
+      }
+    });
+
+    window.addEventListener("scroll", () => {
       const cr = header.getBoundingClientRect();
 
       if (cr.top < offsetY && !duplicateHeader) {
-        document.querySelector("#main-nav .container").appendChild(searchBox);
+        document.querySelector("#main-nav .nav").appendChild(searchBox);
 
         const row = header.children[0];
         duplicateHeader = header.cloneNode(true);
-        duplicateHeader.classList = "sticky-header table-header-group bg-[#fcfcfc] fixed";
-        duplicateHeader.style.top = offsetY + "px";
-        duplicateHeader.style.left = offsetLeft - tableWrapper.scrollLeft + 4 + "px";
-        duplicateHeader.style.width = row.getBoundingClientRect().width + "px";
+        duplicateHeader.classList =
+          "sticky-header table-header-group bg-[#fcfcfc] fixed";
+        duplicateHeader.style.top = `${offsetY}px`;
+        duplicateHeader.style.left = `${offsetLeft - tableWrapper.scrollLeft + 4}px`;
+        duplicateHeader.style.width = `${row.getBoundingClientRect().width}px`;
         duplicateHeader.style.zIndex = 90;
 
-        duplicateHeader.children[0].style.height = row.getBoundingClientRect().height + "px";
-
-        // floatingSearch.style.bottom = "1.5rem";
+        duplicateHeader.children[0].style.height = `${row.getBoundingClientRect().height}px`;
 
         Array.from(row.children).forEach((child, index) => {
           const cell = duplicateHeader.children[0].children[index];
           cell.style.verticalAlign = "middle";
-          cell.style.width = child.getBoundingClientRect().width + "px";
-        })
+          cell.style.width = `${child.getBoundingClientRect().width}px`;
+        });
 
         document.body.appendChild(duplicateHeader);
 
@@ -238,19 +283,18 @@
           document.getElementById("scrolltop").classList.toggle("rotate-0");
         }
       }
-
-      // checkStickyLabel();
     });
-
-    // filteredData = _.sortBy(filteredData, ['item.status'])
   });
 
   function checkStickyLabel() {
     let theLabel;
-    
-    scriptLabels.forEach(label => {
-      if (label.getBoundingClientRect().top < offsetYWithHeader - label.parentElement.offsetHeight) {
-        console.log(label)
+
+    scriptLabels.forEach((label) => {
+      if (
+        label.getBoundingClientRect().top <
+        offsetYWithHeader - label.parentElement.offsetHeight
+      ) {
+        console.log(label);
         theLabel = label;
         return;
       }
@@ -258,95 +302,173 @@
 
     if (theLabel && theLabel.innerHTML != currentLabel) {
       if (theLabel) {
-        // theLabel.classList.toggle("opacity-0");
         currentLabel = theLabel.innerHTML;
-        console.log(currentLabel)
-        stickyLabel.style.top = offsetYWithHeader + theLabel.getBoundingClientRect().height + "px";
+        stickyLabel.style.top = `${offsetYWithHeader + theLabel.getBoundingClientRect().height}px`;
       }
     }
   }
 
-  afterUpdate(() => {
-    scriptLabels = scriptLabels.filter(label => !!label);
+  // Effect for afterUpdate behavior - runs after DOM updates
+  $effect(() => {
+    // Track filteredData to run when it changes
+    filteredData;
 
-    const innerTableScroll = tableWrapper.children[0];
-    const scrollPosition = innerTableScroll.offsetLeft - (tableWrapper.clientWidth / 2) + (innerTableScroll.offsetWidth / 2);
+    // Use untrack to avoid creating reactive dependencies on the DOM side effects
+    untrack(() => {
+      scriptLabels = scriptLabels.filter((label) => !!label);
+    });
 
-    if (innerTableScroll.offsetWidth < document.body.clientWidth) {
-      tableWrapper.style.overflowX = "hidden";
-    } else {
-      tableWrapper.style.overflowX = "";
+    if (
+      typeof document !== "undefined" &&
+      document.getElementById("table-body")
+    ) {
+      const imgLoad = imagesLoaded("#table-body");
+
+      imgLoad.on("done", () => {
+        if (!tableWrapper) return;
+
+        const innerTableScroll = tableWrapper.children[0];
+        const scrollPosition =
+          innerTableScroll.offsetLeft -
+          tableWrapper.clientWidth / 2 +
+          innerTableScroll.offsetWidth / 2;
+
+        if (innerTableScroll.offsetWidth < document.body.clientWidth) {
+          tableWrapper.style.overflowX = "hidden";
+        } else {
+          tableWrapper.style.overflowX = "";
+        }
+
+        if (document.body.clientWidth <= 1024) {
+          tableWrapper.scrollLeft = 0;
+        } else {
+          tableWrapper.scrollLeft = scrollPosition;
+        }
+
+        if (header && duplicateHeader) {
+          const row = header.children[0];
+          Array.from(row.children).forEach((child, index) => {
+            const cell = duplicateHeader.children[0].children[index];
+            cell.style.verticalAlign = "middle";
+            cell.style.width = `${child.getBoundingClientRect().width}px`;
+          });
+        }
+      });
     }
+  });
 
-    if (document.body.clientWidth <= 1024) {
-      tableWrapper.scrollLeft = 0;
-    } else {
-      tableWrapper.scrollLeft = scrollPosition;
+  // Reactive effect for search - use $effect.pre to avoid infinite loops
+  let previousSearchQuery = "";
+  $effect(() => {
+    const currentQuery = searchQuery;
+    if (currentQuery !== previousSearchQuery) {
+      previousSearchQuery = currentQuery;
+      // Only run search if _data is initialized
+      if (_data.length > 0) {
+        filteredData = currentQuery === "" ? _data : fuse.search(currentQuery);
+        sortState = { field: "", order: 0 };
+        rendered = false;
+      }
     }
-
-    if (header && duplicateHeader) {
-      const row = header.children[0];
-      Array.from(row.children).forEach((child, index) => {
-        const cell = duplicateHeader.children[0].children[index];
-        cell.style.verticalAlign = "middle";
-        cell.style.width = child.getBoundingClientRect().width + "px";
-      })
-    }
-  })
-
-  if (import.meta.env.DEV) {
-    // searchQuery = "malaysia"
-  }
-
-  $: searchQuery, performSearch();
+  });
 </script>
 
-<section bind:this={searchbar} class="flex flex-row gap-4 items-center my-8">
-</section>
+<section
+  bind:this={searchbar}
+  class="flex flex-row gap-4 items-center my-8"
+></section>
 
 <section class="pb-10" style="height: {bodyHeight}px">
-  <div bind:this={tableWrapper} id="table-wrapper" class="overflow-x-scroll absolute left-0 no-scrollbar w-full" style="padding: 0 {offsetLeft}px;">
-    <div class="min-w-full w-fit border-[3pt] border-[rgb(235,227,224)] shadow-lg shadow-zinc-300 mb-10">
-      <div bind:this={body} id="main-table" class="table bg-[#f8f8f8] w-full border-collapse">
-        <div bind:this={header} class="table-header-group bg-[#fcfcfc] z-50 sticky mt-10">
-          <div class="table-row font-bold [&>.table-cell]:border-b-4 [&>.table-cell]:border-b-amber-900">
-            <div class="table-cell relative">
-              Script
+  <div
+    bind:this={tableWrapper}
+    id="table-wrapper"
+    class="overflow-x-scroll absolute left-0 no-scrollbar w-full"
+    style="padding: 0 {offsetLeft}px;"
+  >
+    <div
+      class="min-w-full w-fit border-[3pt] border-[rgb(235,227,224)] shadow-lg shadow-zinc-300 mb-10"
+    >
+      <div
+        bind:this={body}
+        id="main-table"
+        class="table bg-[#f8f8f8] w-full border-collapse"
+      >
+        <div
+          bind:this={header}
+          class="table-header-group bg-[#fcfcfc] z-50 sticky mt-10"
+        >
+          <div
+            class="table-row font-bold [&>.table-cell]:border-b-4 [&>.table-cell]:border-b-amber-900"
+          >
+            <div class="table-cell text-nowrap">Script</div>
+            <div class="table-cell text-nowrap">
+              <button onclick={() => performSort("orthography")}>
+                <span class="underline decoration-dotted">Orthography</span>
+                <SortingOrderIcon {sortState} field="orthography" />
+              </button>
             </div>
-            <div class="table-cell">Orthography</div>
-            <div class="table-cell">Languages</div>
-            <div class="table-cell">Location</div>
-            <div class="table-cell">Image</div>
-            <div class="table-cell text-nowrap">Unicode Status</div>
-            <div class="table-cell">Links</div>
-            <div class="table-cell">Notes</div>
+            <div class="table-cell text-nowrap">
+              <button onclick={() => performSort("languages")}>
+                <span class="underline decoration-dotted">Languages</span>
+                <SortingOrderIcon {sortState} field="languages" />
+              </button>
+            </div>
+            <div class="table-cell text-nowrap">
+              <button onclick={() => performSort("location")}>
+                <span class="underline decoration-dotted">Location</span>
+                <SortingOrderIcon {sortState} field="location" />
+              </button>
+            </div>
+            <div class="table-cell text-nowrap">Image</div>
+            <div class="table-cell text-nowrap">
+              <button onclick={() => performSort("status")}>
+                <span class="underline decoration-dotted">Unicode Status</span>
+                <SortingOrderIcon {sortState} field="status" />
+              </button>
+            </div>
+            <div class="table-cell text-nowrap">
+              <button onclick={() => performSort("links")}>
+                <span class="underline decoration-dotted">Links</span>
+                <SortingOrderIcon {sortState} field="links" />
+              </button>
+            </div>
+            <div class="table-cell text-nowrap">Notes</div>
           </div>
         </div>
-        <div id="table-body" class="table-row-group [&>.table-row:last-child>.table-cell]:!border-b-0">
+
+        <div
+          id="table-body"
+          class="table-row-group [&>.table-row:last-child>.table-cell]:!border-b-0"
+        >
           {#each filteredData as { item }, index}
             <div class="table-row group hover:bg-zinc-100">
-              <!-- {#if !labelDisplay.includes(item.script)} -->
-              {#if index == 0 || filteredData[index-1].item.script != item.script}
-                <div class="table-cell script-cell font-bold relative min-w-[10ch]">
-                    <span bind:this={scriptLabels[index]}>{@html item.script}</span>
+              {#if index == 0 || filteredData[index - 1].item.script != item.script}
+                <div
+                  class="table-cell script-cell font-bold relative min-w-[10ch]"
+                >
+                  <span bind:this={scriptLabels[index]}
+                    >{@html item.script}</span
+                  >
                 </div>
               {:else}
-                <div class="table-cell script-cell font-bold !border-t-0 relative min-w-[10ch]">
-                  <span class="select-none opacity-0 group-hover:opacity-30">{@html item.script}</span>
+                <div
+                  class="table-cell script-cell font-bold !border-t-0 relative min-w-[10ch]"
+                >
+                  <span class="select-none opacity-0 group-hover:opacity-30"
+                    >{@html item.script}</span
+                  >
                 </div>
               {/if}
 
-              <!-- <div class="table-cell">
-                {@html item.orthography}
-              </div> -->
-
-              {#if index == 0 || (filteredData[index-1].item.orthography != item.orthography) || item.orthography == ""}
+              {#if index == 0 || filteredData[index - 1].item.orthography != item.orthography || item.orthography == ""}
                 <div class="table-cell script-cell !border-b-0 relative">
-                    <span>{@html item.orthography}</span>
+                  <span>{@html item.orthography}</span>
                 </div>
               {:else}
                 <div class="table-cell script-cell relative !border-t-0">
-                  <span class="select-none opacity-0 group-hover:opacity-30">{@html item.orthography}</span>
+                  <span class="select-none opacity-0 group-hover:opacity-30"
+                    >{@html item.orthography}</span
+                  >
                 </div>
               {/if}
 
@@ -359,7 +481,10 @@
               <div class="table-cell">
                 {#key item.image}
                   {#if item.image}
-                    <Image src={config.base + "/images/" + item.image} alt={item.script + "-" + item.orthography} />
+                    <Image
+                      src={config.base + "/images/" + item.image}
+                      alt={item.script + "-" + item.orthography}
+                    />
                   {/if}
                 {/key}
               </div>
@@ -383,10 +508,21 @@
 <div bind:this={searchBox}>
   <div class="flex flex-row gap-4 rounded-lg items-center">
     <label for="base-input" class="block font-semibold">Search:</label>
-    <input bind:value={searchQuery} bind:this={searchInput} autocomplete="off" type="text" id="base-input" placeholder="(Cmd/Ctrl + K)" class="text-black bg-gray-50 border border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500 block max-w-64 py-1 px-2" />
+    <input
+      bind:value={searchQuery}
+      bind:this={searchInput}
+      autocomplete="off"
+      type="text"
+      id="base-input"
+      placeholder="(Cmd/Ctrl + K)"
+      class="text-black bg-gray-50 border border-gray-500 rounded-md focus:ring-blue-500 focus:border-blue-500 block max-w-64 py-1 px-2"
+    />
   </div>
 </div>
 
-<div bind:this={stickyLabel} class="sticky-label fixed ml-[calc(1.5rem+4px)] font-bold bg-[#f8f8f8]">
+<div
+  bind:this={stickyLabel}
+  class="sticky-label fixed ml-[calc(1.5rem+4px)] font-bold bg-[#f8f8f8]"
+>
   {@html currentLabel}
 </div>
