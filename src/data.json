@@ -2081,6 +2081,19 @@
   },
   {
     "script": "Thai",
+    "orthography": "Mal (Thin)",
+    "languages": "Mal (Thin)",
+    "location": "Thailand",
+    "image": "Mal.png",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Mal_language"
+    ]
+  },
+  {
+    "script": "Thai",
     "orthography": "Mlabri",
     "languages": "Mlabri",
     "location": "Laos<br>Thailand",
@@ -2113,7 +2126,8 @@
     "location": "Northern Thailand",
     "image": "Mpi.png",
     "status": [
-      "Requirements uncertain"
+      "Encoded in Thai range,",
+      "some Latin combining marks"
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Mpi_language"
