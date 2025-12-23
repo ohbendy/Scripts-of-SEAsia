@@ -241,6 +241,7 @@
         duplicateHeader.style.top = `${offsetY}px`;
         duplicateHeader.style.left = `${offsetLeft - tableWrapper.scrollLeft + 4}px`;
         duplicateHeader.style.width = `${row.getBoundingClientRect().width}px`;
+        syncHeaderCellWidths(row, duplicateHeader);
       }
     });
 
