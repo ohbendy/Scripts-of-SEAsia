@@ -1322,7 +1322,7 @@
   {
     "script": "Mon-Burmese",
     "orthography": "Eastern Pwo (Phlou)",
-    "languages": "Eastern Pwo {Phlou}",
+    "languages": "Eastern Pwo (Phlou)",
     "location": "",
     "image": "Eastern Pwo.png",
     "status": [
@@ -1517,8 +1517,8 @@
   },
   {
     "script": "Mon-Burmese",
-    "orthography": "Southern Pa’O",
-    "languages": "Southern Pa’O",
+    "orthography": "Southern Pa’O (Kham Dom)",
+    "languages": "Southern Pa’O (Kham Dom)",
     "location": "Myanmar",
     "image": "Southern Pa'O.png",
     "status": [
@@ -1808,7 +1808,7 @@
   {
     "script": "Tai&nbsp;Viet",
     "orthography": "",
-    "languages": "Tai Dam ô",
+    "languages": "Tai Dam",
     "location": "Thailand<br>Vietnam",
     "image": "Tai Viet.png",
     "status": [
@@ -2119,6 +2119,19 @@
       "LangArchive;https://www.langarchive-th.org/th/digital-heritage/moken_cdrel01_0001"
     ]
   },
+    {
+    "script": "Thai",
+    "orthography": "Moklen",
+    "languages": "Moklen",
+    "location": "Southern Thailand",
+    "image": "",
+    "status": [
+      "Encoded in Thai range"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Moklen_language",
+    ]
+  },
   {
     "script": "Thai",
     "orthography": "Mpi",
@@ -2285,6 +2298,32 @@
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Urak_Lawoi%27_language",
       "LangArchive;https://www.langarchive-th.org/th/collection/uraklawoc"
+    ]
+  },
+    {
+    "script": "Thai",
+    "orthography": "Yong",
+    "languages": "Yong",
+    "location": "Northern Thailand",
+    "image": "",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Yong_language",
+    ]
+  },
+      {
+    "script": "Thai",
+    "orthography": "Yoy",
+    "languages": "Yoy",
+    "location": "Laos, Northern Thailand",
+    "image": "",
+    "status": [
+      "Requirements uncertain"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Yoy_language",
     ]
   },
   {
