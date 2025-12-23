@@ -2262,7 +2262,7 @@
   },
   {
     "script": "Thai",
-    "orthography": "Thai Yor",
+    "orthography": "Thai Yaw",
     "languages": "",
     "location": "Thailand (historic)",
     "image": "Thai Yor.png",
@@ -2318,7 +2318,7 @@
     "orthography": "Yoy",
     "languages": "Yoy",
     "location": "Laos, Northern Thailand",
-    "image": "",
+    "image": "Yoy.png",
     "status": [
       "Requirements uncertain"
     ],
