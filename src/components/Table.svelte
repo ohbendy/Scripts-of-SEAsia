@@ -30,6 +30,8 @@
   let searchInput;
   let searchBox;
 
+  let statistics = $state({});
+
   /**
    * @type {HTMLElement}
    */
@@ -144,11 +146,18 @@
   }
 
   onMount(() => {
-    _data = data.map((value, index) => {
+    _data = data.map((value, _) => {
       return {
         item: value,
       };
     });
+
+    var _groupScript = Object.groupBy(data, ({script}) => script)
+
+    statistics = {
+      scripts: Object.keys(_groupScript).length,
+      orthographies: _data.length
+    }
 
     performSearch();
     ro.observe(body);
@@ -463,7 +472,8 @@
 </section>
 
 <p class="text-center text-sm text-gray-600 mt-12 mb-8">
-  {data.length} scripts currently listed.
+  {statistics.scripts} scripts, {statistics.orthographies} orthographies currently listed.
+  <br />
   <a
     href="https://github.com/ohbendy/Scripts-of-SEAsia/issues/new?template=missing-script.yml"
     target="_blank"
