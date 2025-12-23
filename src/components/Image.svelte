@@ -1,13 +1,12 @@
-<script >
+<script>
   import { onMount } from "svelte";
 
-  export let src;
-  export let alt = "";
+  let { src, alt = "" } = $props();
 
-  let loaded = false;
-  let failed = false;
-  let loading = false;
-  let isVertical = false;
+  let loaded = $state(false);
+  let failed = $state(false);
+  let loading = $state(false);
+  let isVertical = $state(false);
 
   onMount(() => {
     const img = new Image();
@@ -19,7 +18,7 @@
       loaded = true;
       isVertical = img.width / img.height < 1;
     };
-    
+
     img.onerror = () => {
       loading = false;
       failed = true;
@@ -35,8 +34,4 @@
   {:else}
     <img class="has-filter" {src} {alt} />
   {/if}
-<!-- {:else if failed}
-  <img src="https://icon-library.com/images/not-found-icon/not-found-icon-20.jpg" alt="Not Found" />
-{:else if loading}
-  <img src="https://c.tenor.com/On7kvXhzml4AAAAi/loading-gif.gif" alt="Loading..." /> -->
 {/if}

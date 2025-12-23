@@ -10,14 +10,14 @@ import config from '../site.config';
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{frontmatter.title} - {config.name}</title>
 	</head>
 	<body class="pb-10">
 		<nav id="main-nav" class="w-full sticky top-0 z-[70]">
 			<div class="bg-gradient-to-t from-[#111111] to-[#444444] text-zinc-200">
-				<div class="container mx-auto flex flex-row-reverse justify-between items-center">
+				<div class="nav px-8 mx-auto flex flex-row-reverse justify-between items-center">
 					<ul class="flex flex-row font-semibold">
 						<li><a href={config.base}>Home</a></li>
 						<li><a href={config.base + "/about"}>About</a></li>
@@ -27,7 +27,7 @@ import config from '../site.config';
 			</div>
 		</nav>
 
-		<main class="container mx-auto pt-8 md:pt-12 lg:pt-20 3xl:pt-28">
+		<main class="mx-auto px-8 pt-8 md:pt-12 lg:pt-20 3xl:pt-28">
 			<div class="px-6 py-4 md:px-10 md:py-8 lg:py-12 lg:px-16 3xl:py-20 3xl:px-24 bg-[#f8f8f8] rounded-2xl shadow-xl">
 				<h1 class="text-2xl 2xl:text-3xl mb-6 font-medium">{frontmatter.title}</h1>
 				<slot />
