@@ -1395,7 +1395,8 @@
     "status": [
       "Unicode proposal forthcoming;https://fontpad.co.uk/Documents/Letalanyah_proposal.pdf"
     ],
-    "links": ""
+    "links": "",
+    "note": "Not an official orthography"
   },
   {
     "script": "Mon-Burmese",
@@ -1521,7 +1522,7 @@
     "location": "Myanmar",
     "image": "Southern Pa'O.png",
     "status": [
-      "Extra characters need encoding"
+      "Unicode proposal forthcoming;https://www.fontpad.co.uk/Documents/Kham_Dom_proposal.pdf"
     ],
     "links": ""
   },
@@ -2187,6 +2188,20 @@
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Kelantan-Pattani_Malay",
       "LangArchive;https://www.langarchive-th.org/th/collection/malayu-patani"
+    ]
+  },
+  { 
+    "script": "Thai",
+    "orthography": "Saek",
+    "languages": "Saek",
+    "location": "Laos, Northeast Thailand",
+    "image": "Saek.png",
+    "status": [
+      "Encoded in Thai range",
+      "some Latin combining marks"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Saek_language"
     ]
   },
   {
