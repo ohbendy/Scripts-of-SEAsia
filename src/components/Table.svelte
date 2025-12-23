@@ -1,10 +1,11 @@
 <script>
-  import { onMount, untrack, } from "svelte";
+  import { onMount } from "svelte";
   import data from "../data.json";
   import Fuse from "fuse.js";
   import Image from "./Image.svelte";
   import config from "../site.config";
-  import _ from "lodash";
+  import sortBy from "lodash/sortBy";
+  import reverse from "lodash/reverse";
   import SortingOrderIcon from "./SortingOrderIcon.svelte";
   import imagesLoaded from "imagesloaded";
 
@@ -23,24 +24,17 @@
   let searchQuery = $state("");
   let bodyHeight = $state(0);
 
-  let tableWrapper = $state();
-  let verticalImage = $state();
-  let overlayImage = $state();
-  let duplicateHeader = $state();
-  let searchInput = $state();
-  let searchBox = $state();
-  let scriptLabels = $state([]);
-  let stickyLabel = $state();
-  let currentLabel = $state("");
-
-  let rendered = $state(false);
+  let tableWrapper;
+  let overlayImage;
+  let duplicateHeader;
+  let searchInput;
+  let searchBox;
 
   /**
    * @type {HTMLElement}
    */
   let searchbar;
-  let offsetY = $state(0);
-  let offsetYWithHeader = $state(0);
+  let offsetY = 0;
   let offsetLeft = $state(0);
 
   let sortState = $state({
@@ -83,8 +77,6 @@
       field: "",
       order: 0,
     };
-
-    rendered = false;
   }
 
   function performSort(key) {
@@ -92,11 +84,11 @@
       switch (sortState.order) {
         case 0:
           sortState.order = 1; // ascender
-          filteredData = _.sortBy(filteredData, ["item." + key]);
+          filteredData = sortBy(filteredData, ["item." + key]);
           break;
         case 1:
           sortState.order = 2; // descender
-          filteredData = _.reverse(filteredData);
+          filteredData = reverse(filteredData);
           break;
         case 2:
           sortState.order = 0; // no sorting
@@ -107,10 +99,8 @@
     } else {
       sortState.field = key;
       sortState.order = 1;
-      filteredData = _.sortBy(filteredData, ["item." + key]);
+      filteredData = sortBy(filteredData, ["item." + key]);
     }
-
-    rendered = false;
   }
 
   /**
@@ -137,6 +127,22 @@
     return newText.join("<br>");
   }
 
+  function toggleScrollTopButton() {
+    const scrolltop = document.getElementById("scrolltop");
+    scrolltop.classList.toggle("opacity-0");
+    scrolltop.classList.toggle("opacity-100");
+    scrolltop.classList.toggle("rotate-180");
+    scrolltop.classList.toggle("rotate-0");
+  }
+
+  function syncHeaderCellWidths(sourceRow, targetHeader) {
+    Array.from(sourceRow.children).forEach((child, index) => {
+      const cell = targetHeader.children[0].children[index];
+      cell.style.verticalAlign = "middle";
+      cell.style.width = `${child.getBoundingClientRect().width}px`;
+    });
+  }
+
   onMount(() => {
     _data = data.map((value, index) => {
       return {
@@ -148,7 +154,6 @@
     ro.observe(body);
 
     offsetY = document.getElementById("main-nav").offsetHeight;
-    offsetYWithHeader = offsetY + header.getBoundingClientRect().height;
 
     tableWrapper.addEventListener("scroll", (event) => {
       const target = event.target;
@@ -164,28 +169,27 @@
       .getElementById("main-table")
       .addEventListener("mouseover", (event) => {
         /**
-         * @type {HTMLElement}
+         * @type {HTMLImageElement}
          */
         const target = event.target;
         if (
           target.tagName == "IMG" &&
           target.parentElement.classList.contains("is-vertical")
         ) {
-          verticalImage = target;
           overlayImage = document.createElement("img");
           overlayImage.classList =
             "img-overlay has-filter absolute shadow-lg shadow-zinc-300";
-          overlayImage.src = verticalImage.src;
-          overlayImage.style.width = `${verticalImage.getBoundingClientRect().width}px`;
-          overlayImage.style.left = `${verticalImage.getBoundingClientRect().x}px`;
-          overlayImage.style.top = `${window.scrollY + verticalImage.getBoundingClientRect().y}px`;
+          overlayImage.src = target.src;
+          overlayImage.style.width = `${target.getBoundingClientRect().width}px`;
+          overlayImage.style.left = `${target.getBoundingClientRect().x}px`;
+          overlayImage.style.top = `${window.scrollY + target.getBoundingClientRect().y}px`;
           overlayImage.style.zIndex = 40;
 
           document.body.appendChild(overlayImage);
 
           const offset =
             overlayImage.getBoundingClientRect().top +
-            verticalImage.height -
+            target.height -
             window.innerHeight;
           const outViewport = offset > 1;
 
@@ -257,66 +261,26 @@
 
         duplicateHeader.children[0].style.height = `${row.getBoundingClientRect().height}px`;
 
-        Array.from(row.children).forEach((child, index) => {
-          const cell = duplicateHeader.children[0].children[index];
-          cell.style.verticalAlign = "middle";
-          cell.style.width = `${child.getBoundingClientRect().width}px`;
-        });
+        syncHeaderCellWidths(row, duplicateHeader);
 
         document.body.appendChild(duplicateHeader);
-
-        document.getElementById("scrolltop").classList.toggle("opacity-0");
-        document.getElementById("scrolltop").classList.toggle("opacity-100");
-        document.getElementById("scrolltop").classList.toggle("rotate-180");
-        document.getElementById("scrolltop").classList.toggle("rotate-0");
+        toggleScrollTopButton();
       } else {
         if (duplicateHeader && cr.top > offsetY) {
-          currentLabel = "";
           duplicateHeader.remove();
           duplicateHeader = null;
 
           searchbar.appendChild(searchBox);
-
-          document.getElementById("scrolltop").classList.toggle("opacity-0");
-          document.getElementById("scrolltop").classList.toggle("opacity-100");
-          document.getElementById("scrolltop").classList.toggle("rotate-180");
-          document.getElementById("scrolltop").classList.toggle("rotate-0");
+          toggleScrollTopButton();
         }
       }
     });
   });
 
-  function checkStickyLabel() {
-    let theLabel;
-
-    scriptLabels.forEach((label) => {
-      if (
-        label.getBoundingClientRect().top <
-        offsetYWithHeader - label.parentElement.offsetHeight
-      ) {
-        console.log(label);
-        theLabel = label;
-        return;
-      }
-    });
-
-    if (theLabel && theLabel.innerHTML != currentLabel) {
-      if (theLabel) {
-        currentLabel = theLabel.innerHTML;
-        stickyLabel.style.top = `${offsetYWithHeader + theLabel.getBoundingClientRect().height}px`;
-      }
-    }
-  }
-
   // Effect for afterUpdate behavior - runs after DOM updates
   $effect(() => {
     // Track filteredData to run when it changes
     filteredData;
-
-    // Use untrack to avoid creating reactive dependencies on the DOM side effects
-    untrack(() => {
-      scriptLabels = scriptLabels.filter((label) => !!label);
-    });
 
     if (
       typeof document !== "undefined" &&
@@ -346,18 +310,13 @@
         }
 
         if (header && duplicateHeader) {
-          const row = header.children[0];
-          Array.from(row.children).forEach((child, index) => {
-            const cell = duplicateHeader.children[0].children[index];
-            cell.style.verticalAlign = "middle";
-            cell.style.width = `${child.getBoundingClientRect().width}px`;
-          });
+          syncHeaderCellWidths(header.children[0], duplicateHeader);
         }
       });
     }
   });
 
-  // Reactive effect for search - use $effect.pre to avoid infinite loops
+  // Reactive effect for search - use guard to avoid infinite loops
   let previousSearchQuery = "";
   $effect(() => {
     const currentQuery = searchQuery;
@@ -367,7 +326,6 @@
       if (_data.length > 0) {
         filteredData = currentQuery === "" ? _data : fuse.search(currentQuery);
         sortState = { field: "", order: 0 };
-        rendered = false;
       }
     }
   });
@@ -446,9 +404,7 @@
                 <div
                   class="table-cell script-cell font-bold relative min-w-[10ch]"
                 >
-                  <span bind:this={scriptLabels[index]}
-                    >{@html item.script}</span
-                  >
+                  <span>{@html item.script}</span>
                 </div>
               {:else}
                 <div
@@ -520,9 +476,3 @@
   </div>
 </div>
 
-<div
-  bind:this={stickyLabel}
-  class="sticky-label fixed ml-[calc(1.5rem+4px)] font-bold bg-[#f8f8f8]"
->
-  {@html currentLabel}
-</div>
