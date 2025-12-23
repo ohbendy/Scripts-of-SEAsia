@@ -461,6 +461,18 @@
   </div>
 </section>
 
+<p class="text-center text-sm text-gray-600 mt-12 mb-8">
+  {data.length} scripts currently listed.
+  <a
+    href="https://github.com/ohbendy/Scripts-of-SEAsia/issues/new?template=missing-script.yml"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="underline hover:text-amber-900"
+  >
+    Please click here to submit any script that we've missed.
+  </a>
+</p>
+
 <div bind:this={searchBox}>
   <div class="flex flex-row gap-4 rounded-lg items-center">
     <label for="base-input" class="block font-semibold">Search:</label>

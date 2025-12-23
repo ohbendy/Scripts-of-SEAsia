@@ -1,0 +1,105 @@
+name: Submit Missing Script
+description: Report a writing system that should be added to the Scripts of Southeast Asia catalog
+title: "[Script]: "
+labels: ["new-script", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Scripts of Southeast Asia catalog! Please provide as much information as possible about the missing script or orthography.
+
+  - type: input
+    id: script
+    attributes:
+      label: Script Family
+      description: The parent script or writing system family (e.g., Arabic, Brahmic, Latin)
+      placeholder: e.g., Brahmic, Arabic, Latin
+    validations:
+      required: true
+
+  - type: input
+    id: orthography
+    attributes:
+      label: Orthography Name
+      description: The specific name of the orthography or writing system variant
+      placeholder: e.g., Jawi, Baybayin, Thai
+    validations:
+      required: true
+
+  - type: textarea
+    id: languages
+    attributes:
+      label: Languages
+      description: List the languages that use this orthography (separate multiple languages with commas)
+      placeholder: e.g., Malay, Acehnese, Banjarese
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Geographic Location
+      description: Where is this script/orthography used? (countries, regions, or specific areas)
+      placeholder: e.g., Brunei, Indonesia, Malaysia, Thailand
+    validations:
+      required: true
+
+  - type: dropdown
+    id: unicode-status
+    attributes:
+      label: Unicode Status
+      description: What is the current Unicode encoding status of this script?
+      options:
+        - Encoded (fully supported in Unicode)
+        - Proposal pending
+        - Proposal in progress
+        - Requirements uncertain
+        - Not yet proposed
+        - Unknown
+    validations:
+      required: true
+
+  - type: input
+    id: unicode-link
+    attributes:
+      label: Unicode Proposal/Documentation Link
+      description: If available, provide a link to the Unicode proposal or relevant documentation
+      placeholder: https://www.unicode.org/L2/...
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Reference Links
+      description: Provide links to Wikipedia, academic sources, or other reliable references (one per line)
+      placeholder: |
+        https://en.wikipedia.org/wiki/...
+        https://example.com/academic-paper
+    validations:
+      required: true
+
+  - type: textarea
+    id: image
+    attributes:
+      label: Sample Image
+      description: |
+        If you have a sample image of the script, you can drag and drop it here.
+        Preferred format: PNG with clear text sample showing the orthography.
+        Please ensure you have rights to share the image.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant information about this script (history, current usage, special characters, etc.)
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      options:
+        - label: This script/orthography is used in Southeast Asia or by Southeast Asian communities
+          required: true
+        - label: I have verified that this script is not already in the catalog
+          required: true
+        - label: The information provided is accurate to the best of my knowledge
+          required: true
