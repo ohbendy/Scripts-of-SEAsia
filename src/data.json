@@ -2346,7 +2346,7 @@
     "location": "Shan State, Myanmar",
     "image": "Tham Ta'ang.png",
     "status": [
-      "Not fully encoded; Tham range will need extensions for Ta'Ang."
+      "Not fully encoded — 'Tai Tham' Unicode range will need extensions for Ta'Ang."
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Palaung_language"
