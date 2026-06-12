@@ -2346,7 +2346,7 @@
     "location": "Shan State, Myanmar",
     "image": "Tham Ta'ang.png",
     "status": [
-      "Encoded;https://www.unicode.org/charts/PDF/U1A20.pdf"
+      "Not fully encoded; Tham range will need extensions for Ta'Ang."
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Palaung_language"
