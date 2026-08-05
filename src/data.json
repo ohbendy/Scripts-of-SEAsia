@@ -357,10 +357,13 @@
     "location": "Myanmar",
     "image": "Danu.png",
     "status": [
-      "New Unicode range needed"
+      "Not encoded"
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Intha-Danu_language"
+    ],
+    "note": [
+      "Devised around 2013. Some evidence of community adoption"
     ]
   },
   {
