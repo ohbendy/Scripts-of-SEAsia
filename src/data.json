@@ -489,6 +489,9 @@
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Kadu_language"
+    ],
+    "note": [
+      "Devised in 2022"
     ]
   },
   {
@@ -502,6 +505,9 @@
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Kadu_language"
+    ],
+    "note": [
+      "Devised around 2008; no evidence of community adoption"
     ]
   },
   {
@@ -515,6 +521,9 @@
     ],
     "links": [
       "Wikipedia;https://en.wikipedia.org/wiki/Kadu_language"
+    ],
+    "note": [
+      "Devised around 2012; some evidence of community adoption;https://www.youtube.com/watch?v=78ODrcR-Z9o"
     ]
   },
   {
@@ -1703,7 +1712,7 @@
     "script": "Southern Brahmi (Pallava)",
     "orthography": "",
     "languages": "Sanskrit, Pali, Old Cham, Old Khmer …",
-    "location": "Cambodia<br>Indonesia<br>Myanmara<br>Thailand<br>Vietnam&lt;…",
+    "location": "Cambodia<br>Indonesia<br>Myanmara<br>Thailand<br>Vietnam…",
     "image": "Southern Brahmi.png",
     "status": [
       "Proposal pending;https://www.unicode.org/L2/L2018/18083-pallava.pdf"
