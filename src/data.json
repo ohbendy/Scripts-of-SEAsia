@@ -542,6 +542,18 @@
       "British Library;https://blogs.bl.uk/asian-and-african/2023/09/javanese-palm-leaf-manuscripts-written-in-buda-script-in-the-british-library.html"
     ]
   },
+    {
+    "script": "Kawi",
+    "orthography": "Looped Kawi",
+    "languages": "Old Malay",
+    "location": "West Malaysia, Sumatra",
+    "image": "LoopedKawi.png",
+    "status": "",
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Pengkalan_Kempas_Historical_Complex",
+      "Blogpost;https://www.roamthisway.com/post/heritage-series-the-mysterious-monuments-of-pengkalan-kempas"
+    ]
+  },
   {
     "script": "Kayah&nbsp;Li",
     "orthography": "",
