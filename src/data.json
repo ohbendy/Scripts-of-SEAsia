@@ -1405,6 +1405,19 @@
       "Unicode proposal;https://www.unicode.org/L2/L2006/06303-n3142-myanmar-karen-kayah.pdf"
     ]
   },
+    {
+    "script": "Mon-Burmese",
+    "orthography": "Kayan (Padaung)",
+    "languages": "Kayan (Padaung)",
+    "location": "Eastern Myanmar<br>Western Thailand",
+    "image": "Kayan.png",
+    "status": [
+      "Two tonemarks not yet encoded"
+    ],
+    "links": [
+      "Wikipedia;https://en.wikipedia.org/wiki/Padaung_language"
+    ]
+  },
   {
     "script": "Mon-Burmese",
     "orthography": "Khami",
